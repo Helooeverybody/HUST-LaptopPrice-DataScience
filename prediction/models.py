@@ -7,11 +7,10 @@ from sklearn.metrics import mean_squared_error, r2_score
 # Initialize different regression models
 models = {
     'Linear Regression': LinearRegression(),
-    'Decision Tree': DecisionTreeRegressor(),
     'K-Nearest Neighbors': KNeighborsRegressor(),
+    'Decision Tree': DecisionTreeRegressor(),
     'Random Forest': RandomForestRegressor(),
-    'Gradient Boosting' : GradientBoostingRegressor(),
-    'Support Vector Machine': SVR()
+    'Gradient Boosting' : GradientBoostingRegressor()
 }
 
 def train(X_train, y_train, X_test, y_test):
