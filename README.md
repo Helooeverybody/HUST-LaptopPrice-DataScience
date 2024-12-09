@@ -29,9 +29,7 @@ regarding design, purchasing, and marketing strategies
 ├── insight/
 |   ├── basic_visulaization.ipynb         # basic visualization of data
 |   └── eda.ipynb                         # exploratory data analysis
-├── scraping&crawling/
-|   ├──                                   # 
-|   └──                                   #
+├── scraping&crawling/                    # scraping and crawling folder
 ├── cleaning&integration/
 |   ├──                                   # 
 |   └──                                   #
