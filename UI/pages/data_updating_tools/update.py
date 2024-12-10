@@ -483,7 +483,7 @@ def a_mess(scraping_path):
     try:
         ffx = webdriver.Chrome()
         first = []
-        with open(scraping_path + "data_updating_tools/final.json","r") as f:
+        with open("UI/pages/data_updating_tools/final.json","r") as f:
             mygod = json.load(f)
         hehe(ffx)
         myhahaha = pd.DataFrame(hahahaha)
@@ -508,7 +508,7 @@ def a_mess(scraping_path):
         for key, value in hahahahahaha.items():
             myhahaha.at[id,key] = value
     myhahaha.drop(index=myhahaha.index[-1])
-    # with open(scraping_path + "data_updating_tools/final.json","w") as f:
+    # with open("pages/data_updating_tools/final.json","w") as f:
     #      json.dump(first[0],f)
     ffx.quit()
     return myhahaha
@@ -528,9 +528,9 @@ def merge(myhahaha,data_path,change_name=True):
     else:
         hehe.to_csv(data_path + "laptop_final.csv",index=False)
 
-if __name__ == "__main__":
-    myhahaha = a_mess("data/")
-    if myhahaha is False:
-        print("Mining failed!")
-    else:
-        merge(myhahaha,"data/")
+# if __name__ == "__main__":
+    # myhahaha = a_mess("data/")
+    # if myhahaha is False:
+    #     print("Mining failed!")
+    # else:
+    #     merge(myhahaha,"data/")

@@ -1,8 +1,6 @@
 import streamlit as st
 from streamlit import session_state as ss
 import pandas as pd
-import os
-print(os.getcwd())
 from pages.data_updating_tools.update import a_mess,merge
 def update_data():
     d={"apple":[1,2,3],"banana":["a","b","b"]}
@@ -19,6 +17,7 @@ def main():
                 
         except Exception as e:
             st.write("Something failed while updating data")
+            print(e)
         else:
             ss.lap_data=myhahaha
             st.rerun()
