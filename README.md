@@ -20,6 +20,8 @@ regarding design, purchasing, and marketing strategies
 
 ```
 .
+├── data/                                 # the data .csv file should be inside this folder
+|   └── data_updating_tools               # tools used to update the data. Please refer to the UI for this part
 ├── pred/
 |   ├── display_score.inpynb              # display score regression
 |   ├── work_score.inpynb                 # work score regression
@@ -29,9 +31,8 @@ regarding design, purchasing, and marketing strategies
 ├── insight/
 |   ├── basic_visulaization.ipynb         # basic visualization of data
 |   └── eda.ipynb                         # exploratory data analysis
-├── scraping&crawling/
+├── scraping&crawling/                    # scraping and crawling folder
 |   ├── scraping.ipynb                    # main file used to scrape the data
-|   └── data_updating_tools               # tools used to update the data. Please refer to the UI for this part
 ├── cleaning&integration/
 |   ├──                                   # 
 |   └──                                   #
