@@ -500,6 +500,7 @@ def a_mess(scraping_path):
                     result = fff.result()  # Get the result if completed
                 else:
                     print("Mining timed out and was cancelled.")
+                    ffx.quit()
                     ffx = webdriver.Chrome()
                     continue
         except Exception as e:
