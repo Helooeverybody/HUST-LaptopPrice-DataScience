@@ -1,6 +1,7 @@
 # HUST-LaptopPrice-DataScience
 
 ## Project Description
+
 Laptops play a crucial role in modern life, serving a wide range
 of purposes, from casual browsing to high-end computational tasks.
 To provide a valuable insight of the laptop market, this project fo-
@@ -16,6 +17,7 @@ to predict laptop prices and performance scores based on their speci-
 fications. The findings are presented through intuitive visualizations,
 enabling manufacturers and consumers to make data-driven decisions
 regarding design, purchasing, and marketing strategies
+
 ## Folder structures
 
 ```
@@ -34,11 +36,12 @@ regarding design, purchasing, and marketing strategies
 ├── scraping&crawling/                    # scraping and crawling folder
 |   ├── scraping.ipynb                    # main file used to scrape the data
 ├── cleaning&integration/
-|   ├──                                   # 
-|   └──                                   #
+|   ├── clean/                            # notebooks for cleaning the data
+|   └── integrate/                        # notebooks for integrating CPU&GPU into Laptop
+|   └── pipeline.py                       # the pipeline file to do both cleaning and integrating
 ├── gui/
-|   ├──                                   # 
-|   └──                                   # 
+|   ├──                                   #
+|   └──                                   #
 
 
 ```

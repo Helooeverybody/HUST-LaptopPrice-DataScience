@@ -374,4 +374,4 @@ if __name__ == '__main__':
     df_out = cleaner.clean(df)
     integrator = Integrator(cpu, gpu)
     df_out = integrator.integrate(df_out)
-    df_out.to_csv(data_path + 'test.csv')
+    df_out.to_csv(data_path + 'pipeline.csv')
