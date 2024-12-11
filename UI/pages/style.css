@@ -1,0 +1,156 @@
+button[kind="primary"] {
+    background-color: #CC2B52 !important; /* Beautiful blue background */
+    color: white !important; /* White text for contrast */
+    border: none !important;
+    padding: 10px 16px !important; /* Add padding for a nice button size */
+    border-radius: 8px !important; /* Rounded corners */
+    font-size: 16px !important; /* Slightly larger font for readability */
+    font-weight: bold !important; /* Bold text */
+    cursor: pointer !important;
+    margin: auto; /* Center horizontally */
+    display: block; /* Ensures block-level behavior */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: all 0.2s ease-in-out; /* Smooth hover effect */
+    width: 160px; /* Button width adjustment */
+    margin-bottom: 12px;
+}
+
+button[kind="primary"]:hover {
+    background-color: #9c213e !important; /* Darker blue for hover */
+    transform: scale(1.05); /* Slight enlargement on hover */
+}
+.specs-card {
+    border: 2px solid #CC2B52; /* Blue border */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: transparent; /* No fill */
+    font-family: Arial, sans-serif;
+    width: 80%; /* Narrower width for the card */
+    margin: 0 auto; /* Center align */
+    margin-bottom: 25px;
+}
+
+.specs-card h3 {
+    color: #CC2B52; /* Blue title text */
+    margin-bottom: 16px;
+}
+
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.specs-table tr {
+    border-bottom: 1px solid #ddd; /* Line between each feature */
+}
+
+.specs-table td {
+    padding: 8px;
+}
+
+.spec-item {
+    font-weight: bold;
+    color: #333;
+}
+.highlighted-laptop-name {
+    font-size: 40px; /* Larger font size */
+    font-weight: bold;
+    color: #333; /* Dark color for better contrast */
+    margin-bottom: 20px;
+    text-align: center; /* Center the name */
+}
+.highlighted-image-container{
+    width: 100%; /* Full width */
+    height: 400px;
+    background: linear-gradient(90deg, #dd5e89, #f7bb97); /* Gradient background */
+    border-radius: 15px; /* Rounded rectangle */
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center;
+    margin-bottom: 20px;
+}
+.highlighted-image-container img {
+    border-radius: 10px; /* Round the corners of the image */
+    /*height: 60%;
+    max-width: auto;*/ /* Ensure the image fits within the container */
+    width: auto; /* Set a fixed width */
+    max-width: fit-content;
+    height: 70%;
+    /* object-fit: cover; */
+}
+.laptop-poster-container {
+    width: 100%; /* Full width */
+    height: 420px;
+    background: white; /* Gradient background */
+}
+.normal-image-container{
+    width: 100%; /* Full width */
+    height: 320px;
+    background: white; /* Gradient background */
+    border-radius: 15px; /* Rounded rectangle */
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center;
+    margin-bottom: 5px;
+}
+.normal-image-container img {
+    border-radius: 10px; /* Round the corners of the image */
+    /*height: 80%;
+    width: auto;
+    max-width: auto; /* Ensure the image fits within the container */
+    width: 300px; /* Set a fixed width */
+    height: 240px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image fits nicely without distortion */
+    display: block;
+    margin: auto; /* Centers the image */
+}
+
+.cost-box {
+    width:24%;
+    background-color: #ffd700; /* Gold color for cost box */
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for 3D effect */
+    margin-bottom: 30px;
+    margin-left: auto; /* Auto margin to center the box */
+    margin-right: auto; /* Auto margin to center the box */
+}
+.predicted-cost-box {
+    width:24%;
+    background-color: #faeab9; /* Gold color for cost box */
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for 3D effect */
+    margin-bottom: 30px;
+    margin-left: auto; /* Auto margin to center the box */
+    margin-right: auto; /* Auto margin to center the box */
+}
+.laptop-name {
+    font-family: 'Poppins', sans-serif; /* Modern and stylish font */
+    font-size: 16px; /* Moderate size for better readability */
+    font-weight: 500; /* Semi-bold for emphasis */
+    color: #333; /* Elegant dark red color */
+    text-align: center; /* Center-align the text */
+    line-height: 1.4; /* Comfortable spacing between lines */
+    margin-top: 0px; /* Add spacing above the text */
+    letter-spacing: 0.5px; /* Slightly spaced letters for premium look */
+    text-transform: capitalize; /* Capitalize each word */
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+  .laptop-name:hover {
+    color: #750f23; /* Darker red on hover */
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Enhanced shadow effect on hover */
+    transform: scale(1.02); /* Slight growth effect on hover */
+  }
