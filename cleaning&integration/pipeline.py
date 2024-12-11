@@ -366,7 +366,7 @@ class Integrator():
         
 
 if __name__ == '__main__':
-    data_path = '../data/ignore/'
+    data_path = '../data/'
     df = pd.read_csv(data_path + 'Laptop-partially-cleaned.csv')
     cpu = pd.read_csv(data_path + 'cpu_merged.csv')
     gpu = pd.read_csv(data_path + 'gpu_merged.csv')
