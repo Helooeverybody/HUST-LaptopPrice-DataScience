@@ -209,7 +209,10 @@ class Cleaner():
             for w in r:
                 aaaaa[i][res[w]] = 1
         material = pd.DataFrame(aaaaa, columns=['Body material: ' + x for x in res.keys()])
-        material = material.drop('Body material: nan', axis=1)
+        try:
+            material = material.drop(columns = ['Body material: nan'])
+        except Exception:
+            pass
         material = material.fillna(0)
         material = material.replace("",0)
         return material
@@ -500,7 +503,8 @@ def a_mess(scraping_path):
                     result = fff.result()  # Get the result if completed
                 else:
                     print("Mining timed out and was cancelled.")
-                    ffx.quit()
+                    
+                    # ffx.quit()
                     ffx = webdriver.Chrome()
                     continue
         except Exception as e:
@@ -508,9 +512,9 @@ def a_mess(scraping_path):
         id,hahahahahaha = result
         for key, value in hahahahahaha.items():
             myhahaha.at[id,key] = value
-    myhahaha.drop(index=myhahaha.index[-1])
-    # with open("pages/data_updating_tools/final.json","w") as f:
-    #      json.dump(first[0],f)
+    myhahaha.drop(index=myhahaha.index[-1],inplace=True)
+    with open("UI/pages/data_updating_tools/final.json","w") as f:
+         json.dump(first[0],f)
     ffx.quit()
     return myhahaha
     
@@ -525,6 +529,7 @@ def clean(myhahaha,data_path):
     return myhahaha
 def merge(hehe,myhahaha,data_path,change_name=True):
     hehe = pd.concat([myhahaha,hehe])
+    hehe.drop_duplicates(subset=["link"],inplace=True)
     hehe.reset_index(drop=True,inplace=True)
     if change_name==True:
         hehe.to_csv(data_path + "laptop_final_hehehe.csv",index=False)

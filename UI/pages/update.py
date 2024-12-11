@@ -17,7 +17,7 @@ def main():
     if st.button("Crawl data",type="primary"):
         new_born = a_mess(path)
         try:
-            if new_born is False:
+            if new_born is False or new_born.shape[0]==0:
                 raise Exception()
             else:
                 st.toast("Crawled data successfully!")
@@ -26,7 +26,7 @@ def main():
                 st.write(f"Crawled data shape: {new_born.shape}")
                 crawled=True      
         except Exception as e:
-            st.write("Something failed while crawling data")
+            st.write("Something failed while crawling data or data already updated")
             print(e)
         if crawled:
             st.write("Start cleaning data.")
@@ -43,7 +43,7 @@ def main():
                 cleaned=True
     def lets_merge():
         try:
-            family=merge(ss.lap_data,washed_baby,path)        
+            family=merge(ss.lap_data,washed_baby,path,change_name=False)        
         except Exception as e:
             st.write("Something failed while merging data")
             print(e)
