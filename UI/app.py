@@ -24,11 +24,23 @@ def load_image_url():
 def load_lap_data():
     data=pd.read_csv("data/laptop_final.csv")
     return data
+@st.cache_data
+def load_cost_model():
+    with open(path+"cost_prediction_model.pkl","rb") as f:
+        data=pickle.load(f)
+    return data
+@st.cache_data
+def load_cost_data():
+    with open(path+"cost_pred_preprocessed_data.pkl","rb") as f:
+        data=pickle.load(f)
+    return data
 ss.lap_data=load_lap_data()
 ss.mini_lap_data=load_mini_data()
 ss.nearest_neighbours=load_neighbours()
 ss.img_url_dict=load_image_url()
-st.markdown("<h1 style='text-align: center; color: black;'>KINGDOM OF LAPTOP</h1>", unsafe_allow_html=True)
+ss.cost_data=load_cost_data()
+ss.cost_model=load_cost_model()
+st.markdown("<h1 style='text-align: center; color: black;'>LAPTOP KINGDOM</h1>", unsafe_allow_html=True)
 col1, col2, col3 = st.columns([2.5, 1, 2])  # Adjust column widths for better centering
 
 col1.write("")

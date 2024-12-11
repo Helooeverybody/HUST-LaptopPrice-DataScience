@@ -81,7 +81,8 @@ def page_1():
         for i in reduced_ind:
             with [col1,col2,col3][c%3]:
                 display_poster(i)
-                if st.button("View detail",type="primary",key=str(i),on_click=filter_callback):
+                cost=ss.mini_lap_data.loc[i].Cost
+                if st.button(f"{cost}$",type="primary",key=str(i),on_click=filter_callback):
                     ss.selected_item_id=i
                     ss.page="page_2"
                     st.rerun()    

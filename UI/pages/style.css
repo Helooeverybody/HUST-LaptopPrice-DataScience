@@ -108,9 +108,9 @@ button[kind="primary"]:hover {
 }
 
 .cost-box {
-    width:20%;
+    width:24%;
     background-color: #ffd700; /* Gold color for cost box */
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     font-size: 22px;
     font-weight: bold;
@@ -121,7 +121,20 @@ button[kind="primary"]:hover {
     margin-left: auto; /* Auto margin to center the box */
     margin-right: auto; /* Auto margin to center the box */
 }
-
+.predicted-cost-box {
+    width:24%;
+    background-color: #faeab9; /* Gold color for cost box */
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for 3D effect */
+    margin-bottom: 30px;
+    margin-left: auto; /* Auto margin to center the box */
+    margin-right: auto; /* Auto margin to center the box */
+}
 .laptop-name {
     font-family: 'Poppins', sans-serif; /* Modern and stylish font */
     font-size: 16px; /* Moderate size for better readability */

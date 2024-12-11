@@ -11,8 +11,8 @@ def main():
     st.markdown("<h1 style='text-align: center; color: black;'>Laptop Paradise</h1>", unsafe_allow_html=True)
     selected=option_menu(
         menu_title=None,
-        options=["Shop","Insights","Update"],
-        icons=["bag-fill","book","tools"],
+        options=["Insights","Shop","Update"],
+        icons=["book","bag-fill","tools"],
         orientation="horizontal"
     )
     if selected=="Insights":

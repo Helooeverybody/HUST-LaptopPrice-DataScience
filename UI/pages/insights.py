@@ -308,14 +308,13 @@ def main():
     st.write("This section gives deep insight into product line of specific laptop brand, showing their performance in a given task ")
     avg_score_by_product_line()
     # Section 3: Top laptops with highest performance
-    st.header("3. Top laptops with highest performance")
+    st.header("3. Top laptop brands with highest performance in each category")
     st.write("This section will provide insights into the top-performing laptops based on performance metrics.")
-    brands_dominance_over_bins()
-    
-    # Section 4: Laptop brands dominate in each price range
-    st.header("4. Laptop brands dominate in different segments of score/price")
-    st.write("This section will analyze which laptop brands has the largest number of products in different segments of score/price.")
     brand_with_best_quality_over_price_range()
+    # Section 4: Laptop brands dominate in each price range
+    st.header("4. Laptop brands domination in different segments of score/price")
+    st.write("This section will analyze which laptop brands has the largest number of products in different segments of score/price.")
+    brands_dominance_over_bins()
 
     # Section 5: GPU trend
     st.header("5. Scores vs Cost by release year")

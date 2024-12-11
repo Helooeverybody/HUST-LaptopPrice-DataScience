@@ -513,7 +513,7 @@ def a_mess(scraping_path):
     ffx.quit()
     return myhahaha
     
-def merge(myhahaha,data_path,change_name=True):
+def clean(myhahaha,data_path):
     hehe = pd.read_csv(data_path + "laptop_final.csv")
     cpu = pd.read_csv(data_path + 'cpu_merged.csv')
     gpu = pd.read_csv(data_path + 'gpu_merged.csv')
@@ -521,13 +521,15 @@ def merge(myhahaha,data_path,change_name=True):
     myhahaha = cleaner.clean(myhahaha)
     integrator = Integrator(cpu, gpu)
     myhahaha = integrator.integrate(myhahaha)
-    
-    hehe = pd.concat([hehe,myhahaha])
+    return myhahaha
+def merge(hehe,myhahaha,data_path,change_name=True):
+    hehe = pd.concat([myhahaha,hehe])
+    hehe.reset_index(drop=True,inplace=True)
     if change_name==True:
         hehe.to_csv(data_path + "laptop_final_hehehe.csv",index=False)
     else:
         hehe.to_csv(data_path + "laptop_final.csv",index=False)
-
+    return hehe
 # if __name__ == "__main__":
     # myhahaha = a_mess("data/")
     # if myhahaha is False:

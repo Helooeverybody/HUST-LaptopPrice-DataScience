@@ -3,11 +3,24 @@ import numpy as np
 from streamlit import session_state as ss
 import matplotlib.pyplot as plt
 from pages.modules.laptop_display import get_img_url,display_poster
+import pandas as pd 
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import train_test_split
+from category_encoders import TargetEncoder
+from sklearn.preprocessing import StandardScaler
+import pickle
 st.set_page_config(layout="wide")
 product_image_url="https://static.vecteezy.com/system/resources/thumbnails/034/555/145/small_2x/realistic-perspective-front-laptop-with-keyboard-isolated-incline-90-degree-computer-notebook-with-empty-screen-template-front-view-of-mobile-computer-with-keypad-backdrop-digital-equipment-cutout-vector.jpg"  # Replace with an actual image URL
 # Sample data 
+
+
 def get_similar_items(ind):
     return ss.nearest_neighbours[ind]
+def predict_price(laptop_link):
+    data_to_train = ss.cost_data[ss.cost_data['link'] == laptop_link].drop(columns=["link"])
+    res=ss.cost_model.predict(data_to_train)
+    return res[0]
 def show_laptop_info():
     ind=ss.selected_item_id
     row=ss.mini_lap_data.loc[ind]
@@ -24,7 +37,6 @@ def show_laptop_info():
         "Play": row["Play Score"]
     }
     cost="???" if np.isnan(row['Cost']) else row['Cost']
-    product_img_path="../../laptop_images/others.png"#get_img_path(row["name"])
     for k in scores:
         if np.isnan(scores[k]):
             scores[k]=0
@@ -70,9 +82,10 @@ def show_laptop_info():
         </div>
         """, unsafe_allow_html=True)
         if st.button("Predict price: ",type="primary"):
+            pred_cost=predict_price(row.link)
             st.markdown(f"""
-            <div class="cost-box">
-                {cost} $
+            <div class="predicted-cost-box">
+                {pred_cost:.2f} $
             </div>""",unsafe_allow_html=True)
 def show_similar_items():
     st.markdown("<h2 style='text-align: center;'>Related Products</h2>", unsafe_allow_html=True)
@@ -85,7 +98,8 @@ def show_similar_items():
         product=ss.mini_lap_data.loc[i]
         with [col1, col2, col3][c%3]:
             display_poster(i)
-            if st.button("View detail",type="primary",key=str(i)):
+            cost=ss.mini_lap_data.loc[i].Cost
+            if st.button(f"{cost}$",type="primary",key=str(i)):
                 ss.selected_item_id=i
                 ss.page = "page_2"  
                 st.rerun() 
