@@ -1,0 +1,634 @@
+,link,name
+0,/gpu-specs/firepro-m4170.c2723,FirePro M4170
+1,/gpu-specs/firepro-w4130m.c2704,FirePro W4130M
+2,/gpu-specs/firepro-w4150m.c2703,FirePro W4150M
+3,/gpu-specs/firepro-w4170m.c4064,FirePro W4170M
+4,/gpu-specs/firepro-w4190m.c2799,FirePro W4190M
+5,/gpu-specs/firepro-w5130m.c2769,FirePro W5130M
+6,/gpu-specs/firepro-w6150m.c2798,FirePro W6150M
+7,/gpu-specs/firepro-w7170m.c2768,FirePro W7170M
+8,/gpu-specs/radeon-e6465.c2766,Radeon E6465
+9,/gpu-specs/radeon-e8870-mxm.c4040,Radeon E8870 MXM
+10,/gpu-specs/radeon-e8870-pcie.c2767,Radeon E8870 PCIe
+11,/gpu-specs/radeon-e8950.c2765,Radeon E8950
+12,/gpu-specs/radeon-r2-mobile-graphics.c2500,Radeon R2 Mobile Graphics
+13,/gpu-specs/radeon-r2-mobile-graphics.c3634,Radeon R2 Mobile Graphics
+14,/gpu-specs/radeon-r2e-mobile-graphics.c4043,Radeon R2E Mobile Graphics
+15,/gpu-specs/radeon-r3-mobile-graphics.c2494,Radeon R3 Mobile Graphics
+16,/gpu-specs/radeon-r3e-mobile-graphics.c3635,Radeon R3E Mobile Graphics
+17,/gpu-specs/radeon-r5-a320.c2728,Radeon R5 A320
+18,/gpu-specs/radeon-r5-a330.c3110,Radeon R5 A330
+19,/gpu-specs/radeon-r5-a335.c2935,Radeon R5 A335
+20,/gpu-specs/radeon-r5-m315.c2895,Radeon R5 M315
+21,/gpu-specs/radeon-r5-m320.c2693,Radeon R5 M320
+22,/gpu-specs/radeon-r5-m330.c2681,Radeon R5 M330
+23,/gpu-specs/radeon-r5-m335.c2692,Radeon R5 M335
+24,/gpu-specs/radeon-r5-mobile-graphics.c3005,Radeon R5 Mobile Graphics
+25,/gpu-specs/radeon-r6-m335dx.c2941,Radeon R6 M335DX
+26,/gpu-specs/radeon-r6-m340dx.c2942,Radeon R6 M340DX
+27,/gpu-specs/radeon-r6-mobile-graphics.c2780,Radeon R6 Mobile Graphics
+28,/gpu-specs/radeon-r7-a360.c2712,Radeon R7 A360
+29,/gpu-specs/radeon-r7-a360.c3111,Radeon R7 A360
+30,/gpu-specs/radeon-r7-m260x.c2483,Radeon R7 M260X
+31,/gpu-specs/radeon-r7-m340.c3109,Radeon R7 M340
+32,/gpu-specs/radeon-r7-m340.c2687,Radeon R7 M340
+33,/gpu-specs/radeon-r7-m350.c2745,Radeon R7 M350
+34,/gpu-specs/radeon-r7-m360.c2686,Radeon R7 M360
+35,/gpu-specs/radeon-r7-m365x.c2762,Radeon R7 M365X
+36,/gpu-specs/radeon-r7-m370.c2695,Radeon R7 M370
+37,/gpu-specs/radeon-r7-m380.c3046,Radeon R7 M380
+38,/gpu-specs/radeon-r7-mobile-graphics.c2779,Radeon R7 Mobile Graphics
+39,/gpu-specs/radeon-r8-m350dx.c2802,Radeon R8 M350DX
+40,/gpu-specs/radeon-r8-m365dx.c2803,Radeon R8 M365DX
+41,/gpu-specs/radeon-r9-a375.c2716,Radeon R9 A375
+42,/gpu-specs/radeon-r9-m270x.c2582,Radeon R9 M270X
+43,/gpu-specs/radeon-r9-m280x.c2581,Radeon R9 M280X
+44,/gpu-specs/radeon-r9-m280x.c2807,Radeon R9 M280X
+45,/gpu-specs/radeon-r9-m360.c2688,Radeon R9 M360
+46,/gpu-specs/radeon-r9-m365x.c2761,Radeon R9 M365X
+47,/gpu-specs/radeon-r9-m370x-mac-edition.c2730,Radeon R9 M370X Mac Edition
+48,/gpu-specs/radeon-r9-m375.c2690,Radeon R9 M375
+49,/gpu-specs/radeon-r9-m375x.c2689,Radeon R9 M375X
+50,/gpu-specs/radeon-r9-m380.c2708,Radeon R9 M380
+51,/gpu-specs/radeon-r9-m380-mac-edition.c3047,Radeon R9 M380 Mac Edition
+52,/gpu-specs/radeon-r9-m385.c2709,Radeon R9 M385
+53,/gpu-specs/radeon-r9-m385x.c2743,Radeon R9 M385X
+54,/gpu-specs/radeon-r9-m390-mac-edition.c3769,Radeon R9 M390 Mac Edition
+55,/gpu-specs/radeon-r9-m390x.c2732,Radeon R9 M390X
+56,/gpu-specs/radeon-r9-m395-mac-edition.c2960,Radeon R9 M395 Mac Edition
+57,/gpu-specs/radeon-r9-m395x.c3577,Radeon R9 M395X
+58,/gpu-specs/radeon-r9-m395x-mac-edition.c2809,Radeon R9 M395X Mac Edition
+59,/gpu-specs/hd-graphics-12eu-mobile.c3149,HD Graphics 12EU Mobile
+60,/gpu-specs/hd-graphics-12eu-mobile.c3115,HD Graphics 12EU Mobile
+61,/gpu-specs/hd-graphics-400-mobile.c2900,HD Graphics 400 Mobile
+62,/gpu-specs/hd-graphics-405-mobile.c2901,HD Graphics 405 Mobile
+63,/gpu-specs/hd-graphics-500-mobile.c2902,HD Graphics 500 Mobile
+64,/gpu-specs/hd-graphics-510-mobile.c2784,HD Graphics 510 Mobile
+65,/gpu-specs/hd-graphics-515-mobile.c3400,HD Graphics 515 Mobile
+66,/gpu-specs/hd-graphics-520-mobile.c2783,HD Graphics 520 Mobile
+67,/gpu-specs/hd-graphics-530-mobile.c2785,HD Graphics 530 Mobile
+68,/gpu-specs/iris-graphics-540-mobile.c2786,Iris Graphics 540 Mobile
+69,/gpu-specs/iris-graphics-550-mobile.c2787,Iris Graphics 550 Mobile
+70,/gpu-specs/iris-pro-graphics-580-mobile.c2788,Iris Pro Graphics 580 Mobile
+71,/gpu-specs/iris-pro-graphics-p580-mobile.c3606,Iris Pro Graphics P580 Mobile
+72,/gpu-specs/geforce-810m.c2774,GeForce 810M
+73,/gpu-specs/geforce-820m.c2701,GeForce 820M
+74,/gpu-specs/geforce-845m.c2660,GeForce 845M
+75,/gpu-specs/geforce-845m.c2753,GeForce 845M
+76,/gpu-specs/geforce-910m.c2764,GeForce 910M
+77,/gpu-specs/geforce-920a.c2647,GeForce 920A
+78,/gpu-specs/geforce-920m.c2646,GeForce 920M
+79,/gpu-specs/geforce-930a.c2816,GeForce 930A
+80,/gpu-specs/geforce-930m.c4002,GeForce 930M
+81,/gpu-specs/geforce-930m.c2644,GeForce 930M
+82,/gpu-specs/geforce-940a.c2649,GeForce 940A
+83,/gpu-specs/geforce-940a.c2737,GeForce 940A
+84,/gpu-specs/geforce-940m.c2643,GeForce 940M
+85,/gpu-specs/geforce-940m.c2648,GeForce 940M
+86,/gpu-specs/geforce-945a.c2813,GeForce 945A
+87,/gpu-specs/geforce-945m.c2773,GeForce 945M
+88,/gpu-specs/geforce-gtx-860m-oem.c2659,GeForce GTX 860M OEM
+89,/gpu-specs/geforce-gtx-950a.c2776,GeForce GTX 950A
+90,/gpu-specs/geforce-gtx-950m.c2642,GeForce GTX 950M
+91,/gpu-specs/geforce-gtx-950m-mac-edition.c2777,GeForce GTX 950M Mac Edition
+92,/gpu-specs/geforce-gtx-960a.c2775,GeForce GTX 960A
+93,/gpu-specs/geforce-gtx-960m.c2635,GeForce GTX 960M
+94,/gpu-specs/geforce-gtx-965m.c2634,GeForce GTX 965M
+95,/gpu-specs/geforce-gtx-965m.c2880,GeForce GTX 965M
+96,/gpu-specs/geforce-gtx-965m-4-gb.c2814,GeForce GTX 965M 4 GB
+97,/gpu-specs/geforce-gtx-980-mobile.c2763,GeForce GTX 980 Mobile
+98,/gpu-specs/jetson-tx1.c3230,Jetson TX1
+99,/gpu-specs/quadro-k620m.c2678,Quadro K620M
+100,/gpu-specs/quadro-m1000m.c2739,Quadro M1000M
+101,/gpu-specs/quadro-m2000m.c2740,Quadro M2000M
+102,/gpu-specs/quadro-m3000m.c2759,Quadro M3000M
+103,/gpu-specs/quadro-m4000m.c2822,Quadro M4000M
+104,/gpu-specs/quadro-m5000m.c2823,Quadro M5000M
+105,/gpu-specs/quadro-m600m.c2738,Quadro M600M
+106,/gpu-specs/tesla-m6-mobile.c2818,Tesla M6 Mobile
+107,/gpu-specs/tesla-m6-x2-mobile.c4123,Tesla M6 X2 Mobile
+108,/gpu-specs/geforce-rtx-5050-mobile.c4239,GeForce RTX 5050 Mobile
+109,/gpu-specs/geforce-rtx-5060-mobile.c4230,GeForce RTX 5060 Mobile
+110,/gpu-specs/geforce-rtx-5070-mobile.c4237,GeForce RTX 5070 Mobile
+111,/gpu-specs/geforce-rtx-5070-ti-mobile.c4238,GeForce RTX 5070 Ti Mobile
+112,/gpu-specs/geforce-rtx-5080-mobile.c4236,GeForce RTX 5080 Mobile
+113,/gpu-specs/geforce-rtx-5090-mobile.c4235,GeForce RTX 5090 Mobile
+114,/gpu-specs/radeon-880m.c4225,Radeon 880M
+115,/gpu-specs/radeon-890m.c4224,Radeon 890M
+116,/gpu-specs/geforce-rtx-3050-a-mobile.c4227,GeForce RTX 3050 A Mobile
+117,/gpu-specs/rtx-1000-mobile-ada-generation.c4208,RTX 1000 Mobile Ada Generation
+118,/gpu-specs/rtx-500-mobile-ada-generation.c4207,RTX 500 Mobile Ada Generation
+119,/gpu-specs/radeon-610m.c4021,Radeon 610M
+120,/gpu-specs/radeon-660m.c4136,Radeon 660M
+121,/gpu-specs/radeon-680m.c4135,Radeon 680M
+122,/gpu-specs/radeon-740m.c4162,Radeon 740M
+123,/gpu-specs/radeon-760m.c4222,Radeon 760M
+124,/gpu-specs/radeon-760m.c4022,Radeon 760M
+125,/gpu-specs/radeon-780m.c4221,Radeon 780M
+126,/gpu-specs/radeon-780m.c4020,Radeon 780M
+127,/gpu-specs/radeon-rx-6450m.c4018,Radeon RX 6450M
+128,/gpu-specs/radeon-rx-6550m.c4017,Radeon RX 6550M
+129,/gpu-specs/radeon-rx-6550s.c3981,Radeon RX 6550S
+130,/gpu-specs/radeon-rx-7600m.c4014,Radeon RX 7600M
+131,/gpu-specs/radeon-rx-7600m-xt.c4013,Radeon RX 7600M XT
+132,/gpu-specs/radeon-rx-7600s.c4016,Radeon RX 7600S
+133,/gpu-specs/radeon-rx-7700s.c4015,Radeon RX 7700S
+134,/gpu-specs/radeon-rx-7900m.c4178,Radeon RX 7900M
+135,/gpu-specs/arc-a380m.c4060,Arc A380M
+136,/gpu-specs/arc-a530m.c4167,Arc A530M
+137,/gpu-specs/arc-a570m.c4168,Arc A570M
+138,/gpu-specs/arc-graphics-112eu-mobile.c4196,Arc Graphics 112EU Mobile
+139,/gpu-specs/arc-graphics-128eu-mobile.c4193,Arc Graphics 128EU Mobile
+140,/gpu-specs/arc-graphics-48eu-mobile.c4198,Arc Graphics 48EU Mobile
+141,/gpu-specs/arc-graphics-64eu-mobile.c4194,Arc Graphics 64EU Mobile
+142,/gpu-specs/arc-pro-a60m.c4161,Arc Pro A60M
+143,/gpu-specs/iris-xe-graphics-80eu-mobile.c4059,Iris Xe Graphics 80EU Mobile
+144,/gpu-specs/iris-xe-graphics-96eu-mobile.c4145,Iris Xe Graphics 96EU Mobile
+145,/gpu-specs/uhd-graphics-64eu-mobile.c4143,UHD Graphics 64EU Mobile
+146,/gpu-specs/uhd-graphics-710-mobile.c4128,UHD Graphics 710 Mobile
+147,/gpu-specs/uhd-graphics-710-mobile.c4129,UHD Graphics 710 Mobile
+148,/gpu-specs/uhd-graphics-770-mobile.c4127,UHD Graphics 770 Mobile
+149,/gpu-specs/geforce-rtx-4050-max-q.c3987,GeForce RTX 4050 Max-Q
+150,/gpu-specs/geforce-rtx-4050-mobile.c3953,GeForce RTX 4050 Mobile
+151,/gpu-specs/geforce-rtx-4060-max-q.c3986,GeForce RTX 4060 Max-Q
+152,/gpu-specs/geforce-rtx-4060-mobile.c3946,GeForce RTX 4060 Mobile
+153,/gpu-specs/geforce-rtx-4070-max-q.c3954,GeForce RTX 4070 Max-Q
+154,/gpu-specs/geforce-rtx-4070-mobile.c3944,GeForce RTX 4070 Mobile
+155,/gpu-specs/geforce-rtx-4080-max-q.c3948,GeForce RTX 4080 Max-Q
+156,/gpu-specs/geforce-rtx-4080-mobile.c3947,GeForce RTX 4080 Mobile
+157,/gpu-specs/geforce-rtx-4090-max-q.c3988,GeForce RTX 4090 Max-Q
+158,/gpu-specs/geforce-rtx-4090-mobile.c3949,GeForce RTX 4090 Mobile
+159,/gpu-specs/jetson-agx-orin-32-gb.c4084,Jetson AGX Orin 32 GB
+160,/gpu-specs/jetson-agx-orin-64-gb.c4085,Jetson AGX Orin 64 GB
+161,/gpu-specs/jetson-orin-nx-16-gb.c4086,Jetson Orin NX 16 GB
+162,/gpu-specs/jetson-orin-nx-8-gb.c4081,Jetson Orin NX 8 GB
+163,/gpu-specs/jetson-orin-nano-4-gb.c4083,Jetson Orin Nano 4 GB
+164,/gpu-specs/jetson-orin-nano-8-gb.c4082,Jetson Orin Nano 8 GB
+165,/gpu-specs/rtx-2000-embedded-ada-generation.c4177,RTX 2000 Embedded Ada Generation
+166,/gpu-specs/rtx-2000-max-q-ada-generation.c4094,RTX 2000 Max-Q Ada Generation
+167,/gpu-specs/rtx-2000-mobile-ada-generation.c4093,RTX 2000 Mobile Ada Generation
+168,/gpu-specs/rtx-3000-mobile-ada-generation.c4095,RTX 3000 Mobile Ada Generation
+169,/gpu-specs/rtx-3500-mobile-ada-generation.c4098,RTX 3500 Mobile Ada Generation
+170,/gpu-specs/rtx-4000-mobile-ada-generation.c4096,RTX 4000 Mobile Ada Generation
+171,/gpu-specs/rtx-5000-embedded-ada-generation.c4176,RTX 5000 Embedded Ada Generation
+172,/gpu-specs/rtx-5000-max-q-ada-generation.c4154,RTX 5000 Max-Q Ada Generation
+173,/gpu-specs/rtx-5000-mobile-ada-generation.c4097,RTX 5000 Mobile Ada Generation
+174,/gpu-specs/radeon-610m.c3994,Radeon 610M
+175,/gpu-specs/radeon-660m.c3870,Radeon 660M
+176,/gpu-specs/radeon-680m.c3871,Radeon 680M
+177,/gpu-specs/radeon-graphics-448sp-mobile.c4057,Radeon Graphics 448SP Mobile
+178,/gpu-specs/radeon-graphics-512sp-mobile.c4056,Radeon Graphics 512SP Mobile
+179,/gpu-specs/radeon-pro-w6300m.c3952,Radeon Pro W6300M
+180,/gpu-specs/radeon-pro-w6500m.c3983,Radeon Pro W6500M
+181,/gpu-specs/radeon-rx-6300m.c3866,Radeon RX 6300M
+182,/gpu-specs/radeon-rx-6500m.c3865,Radeon RX 6500M
+183,/gpu-specs/radeon-rx-6600s.c3869,Radeon RX 6600S
+184,/gpu-specs/radeon-rx-6650m.c3863,Radeon RX 6650M
+185,/gpu-specs/radeon-rx-6650m-xt.c3864,Radeon RX 6650M XT
+186,/gpu-specs/radeon-rx-6700s.c3868,Radeon RX 6700S
+187,/gpu-specs/radeon-rx-6800s.c3867,Radeon RX 6800S
+188,/gpu-specs/radeon-rx-6850m-xt.c3862,Radeon RX 6850M XT
+189,/gpu-specs/arc-a350m.c3905,Arc A350M
+190,/gpu-specs/arc-a370m.c3906,Arc A370M
+191,/gpu-specs/arc-a550m.c3907,Arc A550M
+192,/gpu-specs/arc-a730m.c3908,Arc A730M
+193,/gpu-specs/arc-a770m.c3909,Arc A770M
+194,/gpu-specs/arc-pro-a30m.c3927,Arc Pro A30M
+195,/gpu-specs/iris-xe-graphics-80eu-mobile.c3882,Iris Xe Graphics 80EU Mobile
+196,/gpu-specs/iris-xe-graphics-96eu-mobile.c3881,Iris Xe Graphics 96EU Mobile
+197,/gpu-specs/uhd-graphics-16eu-mobile.c4115,UHD Graphics 16EU Mobile
+198,/gpu-specs/uhd-graphics-24eu-mobile.c4146,UHD Graphics 24EU Mobile
+199,/gpu-specs/uhd-graphics-48eu-mobile.c3883,UHD Graphics 48EU Mobile
+200,/gpu-specs/uhd-graphics-64eu-mobile.c3884,UHD Graphics 64EU Mobile
+201,/gpu-specs/uhd-graphics-770-mobile.c4079,UHD Graphics 770 Mobile
+202,/gpu-specs/geforce-rtx-3050-max-q-refresh-4-gb.c4092,GeForce RTX 3050 Max-Q Refresh 4 GB
+203,/gpu-specs/geforce-rtx-3050-max-q-refresh-6-gb.c3970,GeForce RTX 3050 Max-Q Refresh 6 GB
+204,/gpu-specs/geforce-rtx-3050-mobile-refresh-4-gb.c4156,GeForce RTX 3050 Mobile Refresh 4 GB
+205,/gpu-specs/geforce-rtx-3050-mobile-refresh-6-gb.c3971,GeForce RTX 3050 Mobile Refresh 6 GB
+206,/gpu-specs/geforce-rtx-3070-ti-max-q.c3923,GeForce RTX 3070 Ti Max-Q
+207,/gpu-specs/geforce-rtx-3070-ti-mobile.c3852,GeForce RTX 3070 Ti Mobile
+208,/gpu-specs/geforce-rtx-3080-ti-max-q.c3841,GeForce RTX 3080 Ti Max-Q
+209,/gpu-specs/geforce-rtx-3080-ti-mobile.c3840,GeForce RTX 3080 Ti Mobile
+210,/gpu-specs/rtx-a1000-embedded.c3895,RTX A1000 Embedded
+211,/gpu-specs/rtx-a1000-mobile.c3920,RTX A1000 Mobile
+212,/gpu-specs/rtx-a1000-mobile-6-gb.c4137,RTX A1000 Mobile 6 GB
+213,/gpu-specs/rtx-a2000-embedded.c3861,RTX A2000 Embedded
+214,/gpu-specs/rtx-a3000-mobile-12-gb.c3903,RTX A3000 Mobile 12 GB
+215,/gpu-specs/rtx-a4500-embedded.c3893,RTX A4500 Embedded
+216,/gpu-specs/rtx-a4500-max-q.c4009,RTX A4500 Max-Q
+217,/gpu-specs/rtx-a4500-mobile.c3851,RTX A4500 Mobile
+218,/gpu-specs/rtx-a500-embedded.c3896,RTX A500 Embedded
+219,/gpu-specs/rtx-a500-mobile.c3939,RTX A500 Mobile
+220,/gpu-specs/rtx-a5500-max-q.c4011,RTX A5500 Max-Q
+221,/gpu-specs/rtx-a5500-mobile.c3902,RTX A5500 Mobile
+222,/gpu-specs/t550-mobile.c3918,T550 Mobile
+223,/gpu-specs/radeon-graphics-384sp-mobile.c3856,Radeon Graphics 384SP Mobile
+224,/gpu-specs/radeon-graphics-448sp-mobile.c3854,Radeon Graphics 448SP Mobile
+225,/gpu-specs/radeon-graphics-448sp-mobile.c3784,Radeon Graphics 448SP Mobile
+226,/gpu-specs/radeon-graphics-512sp-mobile.c3771,Radeon Graphics 512SP Mobile
+227,/gpu-specs/radeon-graphics-512sp-mobile.c4065,Radeon Graphics 512SP Mobile
+228,/gpu-specs/radeon-pro-w6600m.c3819,Radeon Pro W6600M
+229,/gpu-specs/radeon-rx-6600m.c3776,Radeon RX 6600M
+230,/gpu-specs/radeon-rx-6700m.c3775,Radeon RX 6700M
+231,/gpu-specs/radeon-rx-6800m.c3786,Radeon RX 6800M
+232,/gpu-specs/uhd-graphics-16eu-mobile.c4109,UHD Graphics 16EU Mobile
+233,/gpu-specs/uhd-graphics-16eu-mobile.c3922,UHD Graphics 16EU Mobile
+234,/gpu-specs/uhd-graphics-24eu-mobile.c3921,UHD Graphics 24EU Mobile
+235,/gpu-specs/uhd-graphics-32eu-mobile.c3814,UHD Graphics 32EU Mobile
+236,/gpu-specs/uhd-graphics-32eu-mobile.c3811,UHD Graphics 32EU Mobile
+237,/gpu-specs/geforce-mx550.c3860,GeForce MX550
+238,/gpu-specs/geforce-mx570.c3919,GeForce MX570
+239,/gpu-specs/geforce-mx570-a.c3943,GeForce MX570 A
+240,/gpu-specs/geforce-rtx-2050-max-q.c4012,GeForce RTX 2050 Max-Q
+241,/gpu-specs/geforce-rtx-2050-mobile.c3859,GeForce RTX 2050 Mobile
+242,/gpu-specs/geforce-rtx-3050-max-q.c3972,GeForce RTX 3050 Max-Q
+243,/gpu-specs/geforce-rtx-3050-mobile.c3788,GeForce RTX 3050 Mobile
+244,/gpu-specs/geforce-rtx-3050-ti-max-q.c4149,GeForce RTX 3050 Ti Max-Q
+245,/gpu-specs/geforce-rtx-3050-ti-mobile.c3778,GeForce RTX 3050 Ti Mobile
+246,/gpu-specs/geforce-rtx-3050-ti-mobile.c3812,GeForce RTX 3050 Ti Mobile
+247,/gpu-specs/geforce-rtx-3060-max-q.c3752,GeForce RTX 3060 Max-Q
+248,/gpu-specs/geforce-rtx-3060-mobile.c3757,GeForce RTX 3060 Mobile
+249,/gpu-specs/geforce-rtx-3070-max-q.c3685,GeForce RTX 3070 Max-Q
+250,/gpu-specs/geforce-rtx-3070-mobile.c3712,GeForce RTX 3070 Mobile
+251,/gpu-specs/geforce-rtx-3080-max-q.c3753,GeForce RTX 3080 Max-Q
+252,/gpu-specs/geforce-rtx-3080-mobile.c3684,GeForce RTX 3080 Mobile
+253,/gpu-specs/quadro-t1200-max-q.c4006,Quadro T1200 Max-Q
+254,/gpu-specs/quadro-t1200-mobile.c3803,Quadro T1200 Mobile
+255,/gpu-specs/rtx-a2000-max-q.c4007,RTX A2000 Max-Q
+256,/gpu-specs/rtx-a2000-mobile.c3827,RTX A2000 Mobile
+257,/gpu-specs/rtx-a3000-mobile.c3806,RTX A3000 Mobile
+258,/gpu-specs/rtx-a3000-mobile-12-gb.c3904,RTX A3000 Mobile 12 GB
+259,/gpu-specs/rtx-a4-mobile.c3789,RTX A4 Mobile
+260,/gpu-specs/rtx-a4000-max-q.c4008,RTX A4000 Max-Q
+261,/gpu-specs/rtx-a4000-mobile.c3804,RTX A4000 Mobile
+262,/gpu-specs/rtx-a5000-max-q.c4010,RTX A5000 Max-Q
+263,/gpu-specs/rtx-a5000-mobile.c3805,RTX A5000 Mobile
+264,/gpu-specs/t600-max-q.c3817,T600 Max-Q
+265,/gpu-specs/t600-mobile.c4151,T600 Mobile
+266,/gpu-specs/radeon-graphics-320sp-mobile.c3613,Radeon Graphics 320SP Mobile
+267,/gpu-specs/radeon-graphics-384sp-mobile.c3511,Radeon Graphics 384SP Mobile
+268,/gpu-specs/radeon-graphics-448sp-mobile.c3510,Radeon Graphics 448SP Mobile
+269,/gpu-specs/radeon-graphics-512sp-mobile.c3587,Radeon Graphics 512SP Mobile
+270,/gpu-specs/radeon-pro-5600m.c3612,Radeon Pro 5600M
+271,/gpu-specs/radeon-pro-w5500m.c3478,Radeon Pro W5500M
+272,/gpu-specs/radeon-rx-5600m.c3492,Radeon RX 5600M
+273,/gpu-specs/radeon-rx-5700m.c3476,Radeon RX 5700M
+274,/gpu-specs/radeon-vega-3-mobile.c3592,Radeon Vega 3 Mobile
+275,/gpu-specs/iris-plus-graphics-g7-64eu-mobile.c3444,Iris Plus Graphics G7 64EU Mobile
+276,/gpu-specs/iris-xe-graphics-g4-48eu-mobile.c3679,Iris Xe Graphics G4 48EU Mobile
+277,/gpu-specs/iris-xe-graphics-g7-80eu-mobile.c3678,Iris Xe Graphics G7 80EU Mobile
+278,/gpu-specs/iris-xe-graphics-g7-96eu-mobile.c3677,Iris Xe Graphics G7 96EU Mobile
+279,/gpu-specs/uhd-graphics-16eu-mobile.c4090,UHD Graphics 16EU Mobile
+280,/gpu-specs/uhd-graphics-32eu-mobile.c4114,UHD Graphics 32EU Mobile
+281,/gpu-specs/uhd-graphics-g4-48eu-mobile.c3692,UHD Graphics G4 48EU Mobile
+282,/gpu-specs/uhd-graphics-g7-64eu-mobile.c3691,UHD Graphics G7 64EU Mobile
+283,/gpu-specs/uhd-graphics-p630-mobile.c3730,UHD Graphics P630 Mobile
+284,/gpu-specs/geforce-gtx-1650-max-q.c3620,GeForce GTX 1650 Max-Q
+285,/gpu-specs/geforce-gtx-1650-mobile.c3633,GeForce GTX 1650 Mobile
+286,/gpu-specs/geforce-gtx-1650-ti-max-q.c3619,GeForce GTX 1650 Ti Max-Q
+287,/gpu-specs/geforce-gtx-1650-ti-mobile.c3512,GeForce GTX 1650 Ti Mobile
+288,/gpu-specs/geforce-gtx-1650-ti-mobile.c3517,GeForce GTX 1650 Ti Mobile
+289,/gpu-specs/geforce-mx330.c3493,GeForce MX330
+290,/gpu-specs/geforce-mx350.c3494,GeForce MX350
+291,/gpu-specs/geforce-mx350.c3582,GeForce MX350
+292,/gpu-specs/geforce-mx450-12w.c3657,GeForce MX450 12W
+293,/gpu-specs/geforce-mx450-30-5w-10gbps.c3641,GeForce MX450 30.5W 10Gbps
+294,/gpu-specs/geforce-mx450-30-5w-8gbps.c3717,GeForce MX450 30.5W 8Gbps
+295,/gpu-specs/geforce-rtx-2060-max-q.c3533,GeForce RTX 2060 Max-Q
+296,/gpu-specs/geforce-rtx-2070-max-q-refresh.c3574,GeForce RTX 2070 Max-Q Refresh
+297,/gpu-specs/geforce-rtx-2070-mobile-refresh.c3573,GeForce RTX 2070 Mobile Refresh
+298,/gpu-specs/geforce-rtx-2070-super-max-q.c3563,GeForce RTX 2070 SUPER Max-Q
+299,/gpu-specs/geforce-rtx-2070-super-mobile.c3514,GeForce RTX 2070 SUPER Mobile
+300,/gpu-specs/geforce-rtx-2080-super-max-q.c3566,GeForce RTX 2080 SUPER Max-Q
+301,/gpu-specs/geforce-rtx-2080-super-mobile.c3513,GeForce RTX 2080 SUPER Mobile
+302,/gpu-specs/jetson-xavier-nx-16-gb.c4087,Jetson Xavier NX 16 GB
+303,/gpu-specs/jetson-xavier-nx-8-gb.c3642,Jetson Xavier NX 8 GB
+304,/gpu-specs/quadro-rtx-5000-mobile-refresh.c3625,Quadro RTX 5000 Mobile Refresh
+305,/gpu-specs/quadro-rtx-5000-x2-mobile.c4121,Quadro RTX 5000 X2 Mobile
+306,/gpu-specs/quadro-t1000-mobile-gddr6.c3624,Quadro T1000 Mobile GDDR6
+307,/gpu-specs/t500-max-q.c4103,T500 Max-Q
+308,/gpu-specs/t500-mobile.c3747,T500 Mobile
+309,/gpu-specs/radeon-540-mobile.c3419,Radeon 540 Mobile
+310,/gpu-specs/radeon-540x-mobile.c3415,Radeon 540X Mobile
+311,/gpu-specs/radeon-610-mobile.c3423,Radeon 610 Mobile
+312,/gpu-specs/radeon-620-mobile.c3421,Radeon 620 Mobile
+313,/gpu-specs/radeon-625-mobile.c3422,Radeon 625 Mobile
+314,/gpu-specs/radeon-630-mobile.c3414,Radeon 630 Mobile
+315,/gpu-specs/radeon-e9390-pcie.c3617,Radeon E9390 PCIe
+316,/gpu-specs/radeon-e9560-pcie.c3616,Radeon E9560 PCIe
+317,/gpu-specs/radeon-pro-5300m.c3464,Radeon Pro 5300M
+318,/gpu-specs/radeon-pro-5500m.c3463,Radeon Pro 5500M
+319,/gpu-specs/radeon-pro-570x.c3396,Radeon Pro 570X
+320,/gpu-specs/radeon-pro-575x.c3397,Radeon Pro 575X
+321,/gpu-specs/radeon-pro-580x.c3398,Radeon Pro 580X
+322,/gpu-specs/radeon-pro-vega-48.c3395,Radeon Pro Vega 48
+323,/gpu-specs/radeon-pro-vega-64x.c3404,Radeon Pro Vega 64X
+324,/gpu-specs/radeon-pro-w5300m.c3477,Radeon Pro W5300M
+325,/gpu-specs/radeon-pro-wx-3200-mobile.c3461,Radeon Pro WX 3200 Mobile
+326,/gpu-specs/radeon-rx-5300m.c3462,Radeon RX 5300M
+327,/gpu-specs/radeon-rx-5500m.c3460,Radeon RX 5500M
+328,/gpu-specs/radeon-rx-560x-mobile.c3357,Radeon RX 560X Mobile
+329,/gpu-specs/radeon-rx-640-mobile.c3413,Radeon RX 640 Mobile
+330,/gpu-specs/radeon-rx-vega-11-mobile.c3597,Radeon RX Vega 11 Mobile
+331,/gpu-specs/radeon-vega-10-mobile.c3591,Radeon Vega 10 Mobile
+332,/gpu-specs/radeon-vega-10-mobile.c3288,Radeon Vega 10 Mobile
+333,/gpu-specs/radeon-vega-10-mobile.c3598,Radeon Vega 10 Mobile
+334,/gpu-specs/radeon-vega-3-mobile.c3655,Radeon Vega 3 Mobile
+335,/gpu-specs/radeon-vega-6-mobile.c3615,Radeon Vega 6 Mobile
+336,/gpu-specs/radeon-vega-6-mobile.c3384,Radeon Vega 6 Mobile
+337,/gpu-specs/radeon-vega-8-mobile.c3289,Radeon Vega 8 Mobile
+338,/gpu-specs/radeon-vega-8-mobile.c3360,Radeon Vega 8 Mobile
+339,/gpu-specs/radeon-vega-8-mobile.c3596,Radeon Vega 8 Mobile
+340,/gpu-specs/radeon-vega-9-mobile.c3614,Radeon Vega 9 Mobile
+341,/gpu-specs/iris-plus-graphics-645-mobile.c3486,Iris Plus Graphics 645 Mobile
+342,/gpu-specs/iris-plus-graphics-g4-48eu-mobile.c3647,Iris Plus Graphics G4 48EU Mobile
+343,/gpu-specs/uhd-graphics-24eu-mobile.c3484,UHD Graphics 24EU Mobile
+344,/gpu-specs/uhd-graphics-24eu-mobile.c3604,UHD Graphics 24EU Mobile
+345,/gpu-specs/uhd-graphics-24eu-mobile.c3644,UHD Graphics 24EU Mobile
+346,/gpu-specs/uhd-graphics-g1-32eu-mobile.c3447,UHD Graphics G1 32EU Mobile
+347,/gpu-specs/geforce-gtx-1050-mobile-3-gb.c3408,GeForce GTX 1050 Mobile 3 GB
+348,/gpu-specs/geforce-gtx-1650-max-q.c3383,GeForce GTX 1650 Max-Q
+349,/gpu-specs/geforce-gtx-1650-mobile.c3367,GeForce GTX 1650 Mobile
+350,/gpu-specs/geforce-gtx-1660-ti-max-q.c3382,GeForce GTX 1660 Ti Max-Q
+351,/gpu-specs/geforce-gtx-1660-ti-mobile.c3369,GeForce GTX 1660 Ti Mobile
+352,/gpu-specs/geforce-mx150-gp107.c3443,GeForce MX150 GP107
+353,/gpu-specs/geforce-mx230.c3350,GeForce MX230
+354,/gpu-specs/geforce-mx250.c3353,GeForce MX250
+355,/gpu-specs/geforce-mx250.c3354,GeForce MX250
+356,/gpu-specs/geforce-rtx-2060-max-q-refresh.c3628,GeForce RTX 2060 Max-Q Refresh
+357,/gpu-specs/geforce-rtx-2060-mobile.c3348,GeForce RTX 2060 Mobile
+358,/gpu-specs/geforce-rtx-2060-mobile-refresh.c3567,GeForce RTX 2060 Mobile Refresh
+359,/gpu-specs/geforce-rtx-2060-super-mobile.c4150,GeForce RTX 2060 SUPER Mobile
+360,/gpu-specs/geforce-rtx-2070-max-q.c3392,GeForce RTX 2070 Max-Q
+361,/gpu-specs/geforce-rtx-2070-mobile.c3349,GeForce RTX 2070 Mobile
+362,/gpu-specs/geforce-rtx-2080-max-q.c3363,GeForce RTX 2080 Max-Q
+363,/gpu-specs/geforce-rtx-2080-mobile.c3312,GeForce RTX 2080 Mobile
+364,/gpu-specs/jetson-nano.c3643,Jetson Nano
+365,/gpu-specs/p106m.c3773,P106M
+366,/gpu-specs/quadro-p2000-mobile.c3772,Quadro P2000 Mobile
+367,/gpu-specs/quadro-p520-max-q.c4005,Quadro P520 Max-Q
+368,/gpu-specs/quadro-p520-mobile.c3424,Quadro P520 Mobile
+369,/gpu-specs/quadro-rtx-3000-max-q.c3429,Quadro RTX 3000 Max-Q
+370,/gpu-specs/quadro-rtx-3000-mobile.c3428,Quadro RTX 3000 Mobile
+371,/gpu-specs/quadro-rtx-3000-mobile-refresh.c3697,Quadro RTX 3000 Mobile Refresh
+372,/gpu-specs/quadro-rtx-3000-x2-mobile.c4120,Quadro RTX 3000 X2 Mobile
+373,/gpu-specs/quadro-rtx-4000-max-q.c3427,Quadro RTX 4000 Max-Q
+374,/gpu-specs/quadro-rtx-4000-mobile.c3430,Quadro RTX 4000 Mobile
+375,/gpu-specs/quadro-rtx-5000-max-q.c3432,Quadro RTX 5000 Max-Q
+376,/gpu-specs/quadro-rtx-5000-mobile.c3431,Quadro RTX 5000 Mobile
+377,/gpu-specs/quadro-rtx-6000-mobile.c3497,Quadro RTX 6000 Mobile
+378,/gpu-specs/quadro-t1000-max-q.c3807,Quadro T1000 Max-Q
+379,/gpu-specs/quadro-t1000-mobile.c3435,Quadro T1000 Mobile
+380,/gpu-specs/quadro-t2000-max-q.c3436,Quadro T2000 Max-Q
+381,/gpu-specs/quadro-t2000-mobile.c3434,Quadro T2000 Mobile
+382,/gpu-specs/radeon-540x-mobile.c3417,Radeon 540X Mobile
+383,/gpu-specs/radeon-550x-mobile.c3207,Radeon 550X Mobile
+384,/gpu-specs/radeon-pro-555x.c3283,Radeon Pro 555X
+385,/gpu-specs/radeon-pro-560x.c3282,Radeon Pro 560X
+386,/gpu-specs/radeon-pro-vega-16.c3331,Radeon Pro Vega 16
+387,/gpu-specs/radeon-pro-vega-20.c3263,Radeon Pro Vega 20
+388,/gpu-specs/radeon-pro-wx-vega-m-gl.c3352,Radeon Pro WX Vega M GL
+389,/gpu-specs/radeon-rx-540x-mobile.c3204,Radeon RX 540X Mobile
+390,/gpu-specs/radeon-rx-550x-mobile.c3205,Radeon RX 550X Mobile
+391,/gpu-specs/radeon-rx-560x-mobile.c3631,Radeon RX 560X Mobile
+392,/gpu-specs/radeon-rx-560x-mobile.c3632,Radeon RX 560X Mobile
+393,/gpu-specs/radeon-rx-560x-mobile.c3197,Radeon RX 560X Mobile
+394,/gpu-specs/radeon-rx-580x-mobile.c3235,Radeon RX 580X Mobile
+395,/gpu-specs/radeon-rx-vega-56-mobile.c3333,Radeon RX Vega 56 Mobile
+396,/gpu-specs/radeon-rx-vega-m-gh.c3056,Radeon RX Vega M GH
+397,/gpu-specs/radeon-rx-vega-m-gl.c3061,Radeon RX Vega M GL
+398,/gpu-specs/radeon-vega-3-mobile.c3078,Radeon Vega 3 Mobile
+399,/gpu-specs/radeon-vega-6-mobile.c3079,Radeon Vega 6 Mobile
+400,/gpu-specs/iris-plus-graphics-655-mobile.c3221,Iris Plus Graphics 655 Mobile
+401,/gpu-specs/uhd-graphics-610-mobile.c3453,UHD Graphics 610 Mobile
+402,/gpu-specs/uhd-graphics-615-mobile.c3370,UHD Graphics 615 Mobile
+403,/gpu-specs/uhd-graphics-617-mobile.c3338,UHD Graphics 617 Mobile
+404,/gpu-specs/uhd-graphics-620-mobile.c3381,UHD Graphics 620 Mobile
+405,/gpu-specs/uhd-graphics-630-mobile.c3262,UHD Graphics 630 Mobile
+406,/gpu-specs/uhd-graphics-p630-mobile.c3452,UHD Graphics P630 Mobile
+407,/gpu-specs/geforce-gtx-1050-max-q.c3074,GeForce GTX 1050 Max-Q
+408,/gpu-specs/geforce-gtx-1050-ti-max-q.c3075,GeForce GTX 1050 Ti Max-Q
+409,/gpu-specs/jetson-agx-xavier-16-gb.c3232,Jetson AGX Xavier 16 GB
+410,/gpu-specs/jetson-agx-xavier-32-gb.c4088,Jetson AGX Xavier 32 GB
+411,/gpu-specs/quadro-p3200-max-q.c3315,Quadro P3200 Max-Q
+412,/gpu-specs/quadro-p3200-mobile.c3147,Quadro P3200 Mobile
+413,/gpu-specs/quadro-p4200-max-q.c4004,Quadro P4200 Max-Q
+414,/gpu-specs/quadro-p4200-mobile.c3199,Quadro P4200 Mobile
+415,/gpu-specs/quadro-p500-mobile.c3261,Quadro P500 Mobile
+416,/gpu-specs/quadro-p5200-max-q.c3347,Quadro P5200 Max-Q
+417,/gpu-specs/quadro-p5200-mobile.c3020,Quadro P5200 Mobile
+418,/gpu-specs/quadro-p620-mobile.c3456,Quadro P620 Mobile
+419,/gpu-specs/radeon-520-mobile-ddr3.c3003,Radeon 520 Mobile DDR3
+420,/gpu-specs/radeon-520-mobile-gddr5.c3236,Radeon 520 Mobile GDDR5
+421,/gpu-specs/radeon-530-mobile-ddr3.c4106,Radeon 530 Mobile DDR3
+422,/gpu-specs/radeon-530-mobile-gddr5.c3002,Radeon 530 Mobile GDDR5
+423,/gpu-specs/radeon-530x-mobile.c3108,Radeon 530X Mobile
+424,/gpu-specs/radeon-535-mobile.c3209,Radeon 535 Mobile
+425,/gpu-specs/radeon-e9171-mcm.c3028,Radeon E9171 MCM
+426,/gpu-specs/radeon-e9172-mxm.c3029,Radeon E9172 MXM
+427,/gpu-specs/radeon-e9173-pcie.c3031,Radeon E9173 PCIe
+428,/gpu-specs/radeon-e9174-mxm.c3030,Radeon E9174 MXM
+429,/gpu-specs/radeon-e9175-pcie.c3032,Radeon E9175 PCIe
+430,/gpu-specs/radeon-pro-555.c2972,Radeon Pro 555
+431,/gpu-specs/radeon-pro-560.c2971,Radeon Pro 560
+432,/gpu-specs/radeon-pro-570.c2970,Radeon Pro 570
+433,/gpu-specs/radeon-pro-575.c2969,Radeon Pro 575
+434,/gpu-specs/radeon-pro-580.c2968,Radeon Pro 580
+435,/gpu-specs/radeon-pro-vega-56.c3099,Radeon Pro Vega 56
+436,/gpu-specs/radeon-pro-vega-64.c3098,Radeon Pro Vega 64
+437,/gpu-specs/radeon-pro-wx-4130-mobile.c3093,Radeon Pro WX 4130 Mobile
+438,/gpu-specs/radeon-pro-wx-4150-mobile.c3092,Radeon Pro WX 4150 Mobile
+439,/gpu-specs/radeon-pro-wx-4170-mobile.c3094,Radeon Pro WX 4170 Mobile
+440,/gpu-specs/radeon-pro-wx-7100-mobile.c3091,Radeon Pro WX 7100 Mobile
+441,/gpu-specs/radeon-pro-wx-7130-mobile.c3457,Radeon Pro WX 7130 Mobile
+442,/gpu-specs/radeon-r8-m535dx.c3210,Radeon R8 M535DX
+443,/gpu-specs/radeon-rx-540-mobile.c3048,Radeon RX 540 Mobile
+444,/gpu-specs/radeon-rx-550-mobile.c3049,Radeon RX 550 Mobile
+445,/gpu-specs/radeon-rx-560-mobile.c3386,Radeon RX 560 Mobile
+446,/gpu-specs/radeon-rx-560-mobile.c3069,Radeon RX 560 Mobile
+447,/gpu-specs/radeon-rx-560-mobile.c3071,Radeon RX 560 Mobile
+448,/gpu-specs/radeon-rx-570-mobile.c3068,Radeon RX 570 Mobile
+449,/gpu-specs/radeon-rx-580-mobile.c3067,Radeon RX 580 Mobile
+450,/gpu-specs/radeon-rx-vega-10-mobile.c3053,Radeon RX Vega 10 Mobile
+451,/gpu-specs/radeon-vega-8-mobile.c3103,Radeon Vega 8 Mobile
+452,/gpu-specs/iris-plus-graphics-640-mobile.c2963,Iris Plus Graphics 640 Mobile
+453,/gpu-specs/iris-plus-graphics-650-mobile.c2964,Iris Plus Graphics 650 Mobile
+454,/gpu-specs/uhd-graphics-600-mobile.c3065,UHD Graphics 600 Mobile
+455,/gpu-specs/uhd-graphics-605-mobile.c3101,UHD Graphics 605 Mobile
+456,/gpu-specs/uhd-graphics-620-mobile.c2909,UHD Graphics 620 Mobile
+457,/gpu-specs/geforce-gtx-1050-mobile.c2917,GeForce GTX 1050 Mobile
+458,/gpu-specs/geforce-gtx-1050-mobile.c3298,GeForce GTX 1050 Mobile
+459,/gpu-specs/geforce-gtx-1050-ti-mobile.c2912,GeForce GTX 1050 Ti Mobile
+460,/gpu-specs/geforce-gtx-1050-ti-mobile.c3013,GeForce GTX 1050 Ti Mobile
+461,/gpu-specs/geforce-gtx-1060-max-q.c2976,GeForce GTX 1060 Max-Q
+462,/gpu-specs/geforce-gtx-1070-max-q.c2974,GeForce GTX 1070 Max-Q
+463,/gpu-specs/geforce-gtx-1080-max-q.c2975,GeForce GTX 1080 Max-Q
+464,/gpu-specs/geforce-mx110.c3044,GeForce MX110
+465,/gpu-specs/geforce-mx130.c3043,GeForce MX130
+466,/gpu-specs/geforce-mx150.c2984,GeForce MX150
+467,/gpu-specs/geforce-mx150.c2959,GeForce MX150
+468,/gpu-specs/quadro-m1200-mobile.c2921,Quadro M1200 Mobile
+469,/gpu-specs/quadro-m2200-mobile.c2922,Quadro M2200 Mobile
+470,/gpu-specs/quadro-m520-mobile.c2919,Quadro M520 Mobile
+471,/gpu-specs/quadro-m620-mobile.c2920,Quadro M620 Mobile
+472,/gpu-specs/quadro-p1000-mobile.c3201,Quadro P1000 Mobile
+473,/gpu-specs/quadro-p2000-mobile.c3202,Quadro P2000 Mobile
+474,/gpu-specs/quadro-p3000-mobile.c2923,Quadro P3000 Mobile
+475,/gpu-specs/quadro-p4000-max-q.c3015,Quadro P4000 Max-Q
+476,/gpu-specs/quadro-p4000-mobile.c2924,Quadro P4000 Mobile
+477,/gpu-specs/quadro-p5000-mobile.c2925,Quadro P5000 Mobile
+478,/gpu-specs/quadro-p5000-x2-mobile.c4122,Quadro P5000 X2 Mobile
+479,/gpu-specs/quadro-p600-mobile.c3200,Quadro P600 Mobile
+480,/gpu-specs/tesla-p6-mobile.c3036,Tesla P6 Mobile
+481,/gpu-specs/firepro-s7100x.c2860,FirePro S7100X
+482,/gpu-specs/radeon-e9260-mxm.c2883,Radeon E9260 MXM
+483,/gpu-specs/radeon-e9260-pcie.c2884,Radeon E9260 PCIe
+484,/gpu-specs/radeon-e9550-mxm.c2882,Radeon E9550 MXM
+485,/gpu-specs/radeon-pro-450.c2899,Radeon Pro 450
+486,/gpu-specs/radeon-pro-455.c2898,Radeon Pro 455
+487,/gpu-specs/radeon-pro-460.c2897,Radeon Pro 460
+488,/gpu-specs/radeon-r1e-mobile-graphics.c4044,Radeon R1E Mobile Graphics
+489,/gpu-specs/radeon-r1e-mobile-graphics.c4050,Radeon R1E Mobile Graphics
+490,/gpu-specs/radeon-r1e-mobile-graphics.c4046,Radeon R1E Mobile Graphics
+491,/gpu-specs/radeon-r2-mobile-graphics.c3216,Radeon R2 Mobile Graphics
+492,/gpu-specs/radeon-r2e-mobile-graphics.c4049,Radeon R2E Mobile Graphics
+493,/gpu-specs/radeon-r3-mobile-graphics.c3217,Radeon R3 Mobile Graphics
+494,/gpu-specs/radeon-r4-mobile-graphics.c3218,Radeon R4 Mobile Graphics
+495,/gpu-specs/radeon-r4e-mobile-graphics.c4051,Radeon R4E Mobile Graphics
+496,/gpu-specs/radeon-r5-m420.c2859,Radeon R5 M420
+497,/gpu-specs/radeon-r5-m430.c2834,Radeon R5 M430
+498,/gpu-specs/radeon-r5-m430.c2945,Radeon R5 M430
+499,/gpu-specs/radeon-r5-m430.c2846,Radeon R5 M430
+500,/gpu-specs/radeon-r5-m435.c2850,Radeon R5 M435
+501,/gpu-specs/radeon-r5-m445.c2750,Radeon R5 M445
+502,/gpu-specs/radeon-r5-m465.c2749,Radeon R5 M465
+503,/gpu-specs/radeon-r5-mobile-graphics.c3215,Radeon R5 Mobile Graphics
+504,/gpu-specs/radeon-r5e-mobile-graphics.c4052,Radeon R5E Mobile Graphics
+505,/gpu-specs/radeon-r6-m435dx.c2943,Radeon R6 M435DX
+506,/gpu-specs/radeon-r6e-mobile-graphics.c4042,Radeon R6E Mobile Graphics
+507,/gpu-specs/radeon-r7-m440.c2851,Radeon R7 M440
+508,/gpu-specs/radeon-r7-m445.c2852,Radeon R7 M445
+509,/gpu-specs/radeon-r7-m460.c2853,Radeon R7 M460
+510,/gpu-specs/radeon-r7-m465.c3211,Radeon R7 M465
+511,/gpu-specs/radeon-r7-m465.c2854,Radeon R7 M465
+512,/gpu-specs/radeon-r7-m465x.c2855,Radeon R7 M465X
+513,/gpu-specs/radeon-r7e-mobile-graphics.c4041,Radeon R7E Mobile Graphics
+514,/gpu-specs/radeon-r8-m435dx.c2944,Radeon R8 M435DX
+515,/gpu-specs/radeon-r8-m445dx.c3128,Radeon R8 M445DX
+516,/gpu-specs/radeon-r9-m470.c2856,Radeon R9 M470
+517,/gpu-specs/radeon-r9-m470x.c2857,Radeon R9 M470X
+518,/gpu-specs/radeon-r9-m485x.c2858,Radeon R9 M485X
+519,/gpu-specs/radeon-rx-460-mobile.c3072,Radeon RX 460 Mobile
+520,/gpu-specs/radeon-rx-470-mobile.c3070,Radeon RX 470 Mobile
+521,/gpu-specs/radeon-rx-480-mobile.c3073,Radeon RX 480 Mobile
+522,/gpu-specs/hd-graphics-505-mobile.c3155,HD Graphics 505 Mobile
+523,/gpu-specs/hd-graphics-610-mobile.c3102,HD Graphics 610 Mobile
+524,/gpu-specs/hd-graphics-615-mobile.c2910,HD Graphics 615 Mobile
+525,/gpu-specs/hd-graphics-620-mobile.c2911,HD Graphics 620 Mobile
+526,/gpu-specs/hd-graphics-630-mobile.c2961,HD Graphics 630 Mobile
+527,/gpu-specs/hd-graphics-p630-mobile.c2965,HD Graphics P630 Mobile
+528,/gpu-specs/geforce-920mx.c2826,GeForce 920MX
+529,/gpu-specs/geforce-930mx.c2825,GeForce 930MX
+530,/gpu-specs/geforce-940mx.c3113,GeForce 940MX
+531,/gpu-specs/geforce-940mx.c2845,GeForce 940MX
+532,/gpu-specs/geforce-940mx.c2797,GeForce 940MX
+533,/gpu-specs/geforce-945m.c2836,GeForce 945M
+534,/gpu-specs/geforce-gtx-1060-mobile.c3016,GeForce GTX 1060 Mobile
+535,/gpu-specs/geforce-gtx-1070-mobile.c2869,GeForce GTX 1070 Mobile
+536,/gpu-specs/geforce-gtx-1080-mobile.c2870,GeForce GTX 1080 Mobile
+537,/gpu-specs/geforce-gtx-965m.c2796,GeForce GTX 965M
+538,/gpu-specs/geforce-gtx-980mx.c2808,GeForce GTX 980MX
+539,/gpu-specs/jetson-tx2.c3231,Jetson TX2
+540,/gpu-specs/quadro-m500m.c2843,Quadro M500M
+541,/gpu-specs/quadro-m5500-mobile.c2838,Quadro M5500 Mobile
+542,/gpu-specs/firepro-m6100.c4063,FirePro M6100
+543,/gpu-specs/firepro-s4000x.c2506,FirePro S4000X
+544,/gpu-specs/firepro-w4170m.c2580,FirePro W4170M
+545,/gpu-specs/firepro-w5170m.c2705,FirePro W5170M
+546,/gpu-specs/firepro-w6170m.c2706,FirePro W6170M
+547,/gpu-specs/radeon-e8860.c2550,Radeon E8860
+548,/gpu-specs/radeon-hd-8210-igp.c2404,Radeon HD 8210 IGP
+549,/gpu-specs/radeon-hd-8530m.c2388,Radeon HD 8530M
+550,/gpu-specs/radeon-hd-8550m.c1905,Radeon HD 8550M
+551,/gpu-specs/radeon-r4-mobile-graphics.c2496,Radeon R4 Mobile Graphics
+552,/gpu-specs/radeon-r4-mobile-graphics.c3607,Radeon R4 Mobile Graphics
+553,/gpu-specs/radeon-r4e-mobile-graphics.c4048,Radeon R4E Mobile Graphics
+554,/gpu-specs/radeon-r5-a220.c2715,Radeon R5 A220
+555,/gpu-specs/radeon-r5-a230.c2713,Radeon R5 A230
+556,/gpu-specs/radeon-r5-a240.c2589,Radeon R5 A240
+557,/gpu-specs/radeon-r5-a240.c2714,Radeon R5 A240
+558,/gpu-specs/radeon-r5-a255.c2719,Radeon R5 A255
+559,/gpu-specs/radeon-r5-m230.c2571,Radeon R5 M230
+560,/gpu-specs/radeon-r5-m230.c2415,Radeon R5 M230
+561,/gpu-specs/radeon-r5-m230-rebrand.c2586,Radeon R5 M230 Rebrand
+562,/gpu-specs/radeon-r5-m240.c2416,Radeon R5 M240
+563,/gpu-specs/radeon-r5-m240-rebrand.c2552,Radeon R5 M240 Rebrand
+564,/gpu-specs/radeon-r5-m255.c2573,Radeon R5 M255
+565,/gpu-specs/radeon-r5-mobile-graphics.c4113,Radeon R5 Mobile Graphics
+566,/gpu-specs/radeon-r5-mobile-graphics.c3006,Radeon R5 Mobile Graphics
+567,/gpu-specs/radeon-r5e-mobile-graphics.c4047,Radeon R5E Mobile Graphics
+568,/gpu-specs/radeon-r6-m255dx.c2654,Radeon R6 M255DX
+569,/gpu-specs/radeon-r6-m255dx.c2640,Radeon R6 M255DX
+570,/gpu-specs/radeon-r6-mobile-graphics.c2630,Radeon R6 Mobile Graphics
+571,/gpu-specs/radeon-r7-a260.c2718,Radeon R7 A260
+572,/gpu-specs/radeon-r7-a265.c2650,Radeon R7 A265
+573,/gpu-specs/radeon-r7-m260.c2591,Radeon R7 M260
+574,/gpu-specs/radeon-r7-m260dx.c2639,Radeon R7 M260DX
+575,/gpu-specs/radeon-r7-m260dx.c2655,Radeon R7 M260DX
+576,/gpu-specs/radeon-r7-m260dx.c2805,Radeon R7 M260DX
+577,/gpu-specs/radeon-r7-m265.c2484,Radeon R7 M265
+578,/gpu-specs/radeon-r7-m265.c2572,Radeon R7 M265
+579,/gpu-specs/radeon-r7-m265dx.c2653,Radeon R7 M265DX
+580,/gpu-specs/radeon-r7-m265dx.c2656,Radeon R7 M265DX
+581,/gpu-specs/radeon-r7-m265dx.c2804,Radeon R7 M265DX
+582,/gpu-specs/radeon-r7-m270.c2657,Radeon R7 M270
+583,/gpu-specs/radeon-r7-m270dx.c2652,Radeon R7 M270DX
+584,/gpu-specs/radeon-r7-m270dx.c2806,Radeon R7 M270DX
+585,/gpu-specs/radeon-r7-mobile-graphics.c2721,Radeon R7 Mobile Graphics
+586,/gpu-specs/radeon-r9-m265x.c2579,Radeon R9 M265X
+587,/gpu-specs/radeon-r9-m270x.c2213,Radeon R9 M270X
+588,/gpu-specs/radeon-r9-m275.c2574,Radeon R9 M275
+589,/gpu-specs/radeon-r9-m275x.c2658,Radeon R9 M275X
+590,/gpu-specs/radeon-r9-m290x.c2546,Radeon R9 M290X
+591,/gpu-specs/radeon-r9-m290x-mac-edition.c3770,Radeon R9 M290X Mac Edition
+592,/gpu-specs/radeon-r9-m295x.c2670,Radeon R9 M295X
+593,/gpu-specs/radeon-r9-m295x-mac-edition.c2587,Radeon R9 M295X Mac Edition
+594,/gpu-specs/hd-graphics-5300-mobile.c2624,HD Graphics 5300 Mobile
+595,/gpu-specs/hd-graphics-5500-mobile.c2625,HD Graphics 5500 Mobile
+596,/gpu-specs/hd-graphics-5600-mobile.c3139,HD Graphics 5600 Mobile
+597,/gpu-specs/hd-graphics-6000-mobile.c2626,HD Graphics 6000 Mobile
+598,/gpu-specs/iris-graphics-6100-mobile.c2627,Iris Graphics 6100 Mobile
+599,/gpu-specs/iris-pro-graphics-6200-mobile.c2628,Iris Pro Graphics 6200 Mobile
+600,/gpu-specs/geforce-705a.c2386,GeForce 705A
+601,/gpu-specs/geforce-710a.c2566,GeForce 710A
+602,/gpu-specs/geforce-720a.c2666,GeForce 720A
+603,/gpu-specs/geforce-800a.c2564,GeForce 800A
+604,/gpu-specs/geforce-800a.c2673,GeForce 800A
+605,/gpu-specs/geforce-800m.c2567,GeForce 800M
+606,/gpu-specs/geforce-805a.c2671,GeForce 805A
+607,/gpu-specs/geforce-810a.c2604,GeForce 810A
+608,/gpu-specs/geforce-810m.c2584,GeForce 810M
+609,/gpu-specs/geforce-820a.c2570,GeForce 820A
+610,/gpu-specs/geforce-825m.c2547,GeForce 825M
+611,/gpu-specs/geforce-830a.c2605,GeForce 830A
+612,/gpu-specs/geforce-830m.c2560,GeForce 830M
+613,/gpu-specs/geforce-840a.c2569,GeForce 840A
+614,/gpu-specs/geforce-840m.c2539,GeForce 840M
+615,/gpu-specs/geforce-gt-720a.c2379,GeForce GT 720A
+616,/gpu-specs/geforce-gt-730a.c2387,GeForce GT 730A
+617,/gpu-specs/geforce-gt-730m.c2307,GeForce GT 730M
+618,/gpu-specs/geforce-gtx-760a.c2565,GeForce GTX 760A
+619,/gpu-specs/geforce-gtx-850a.c2568,GeForce GTX 850A
+620,/gpu-specs/geforce-gtx-850m.c2538,GeForce GTX 850M
+621,/gpu-specs/geforce-gtx-860m.c2536,GeForce GTX 860M
+622,/gpu-specs/geforce-gtx-860m.c2537,GeForce GTX 860M
+623,/gpu-specs/geforce-gtx-870m.c2535,GeForce GTX 870M
+624,/gpu-specs/geforce-gtx-880m.c2534,GeForce GTX 880M
+625,/gpu-specs/geforce-gtx-970m.c2623,GeForce GTX 970M
+626,/gpu-specs/geforce-gtx-970m.c2881,GeForce GTX 970M
+627,/gpu-specs/geforce-gtx-980m.c2622,GeForce GTX 980M
+628,/gpu-specs/geforce-gtx-980m.c2746,GeForce GTX 980M
+629,/gpu-specs/jetson-tk1.c3229,Jetson TK1
+630,/gpu-specs/quadro-k100m.c2618,Quadro K100M
+631,/gpu-specs/quadro-k200m.c2617,Quadro K200M
+632,/gpu-specs/quadro-k2200m.c2598,Quadro K2200M

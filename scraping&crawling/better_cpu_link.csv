@@ -1,0 +1,504 @@
+,link,name
+0,/cpu-specs/ryzen-3-7330u.c3035,Ryzen 3 7330U
+1,/cpu-specs/ryzen-3-7335u.c3038,Ryzen 3 7335U
+2,/cpu-specs/ryzen-3-7440u.c3363,Ryzen 3 7440U
+3,/cpu-specs/ryzen-3-8440u.c3407,Ryzen 3 8440U
+4,/cpu-specs/ryzen-3-pro-7330u.c3273,Ryzen 3 PRO 7330U
+5,/cpu-specs/ryzen-5-7530u.c3036,Ryzen 5 7530U
+6,/cpu-specs/ryzen-5-7535h.c3188,Ryzen 5 7535H
+7,/cpu-specs/ryzen-5-7535hs.c3042,Ryzen 5 7535HS
+8,/cpu-specs/ryzen-5-7535u.c3039,Ryzen 5 7535U
+9,/cpu-specs/ryzen-5-7540u.c3364,Ryzen 5 7540U
+10,/cpu-specs/ryzen-5-7545u.c3365,Ryzen 5 7545U
+11,/cpu-specs/ryzen-5-7640h.c3270,Ryzen 5 7640H
+12,/cpu-specs/ryzen-5-7640hs.c3034,Ryzen 5 7640HS
+13,/cpu-specs/ryzen-5-7640u.c3205,Ryzen 5 7640U
+14,/cpu-specs/ryzen-5-7645hx.c3021,Ryzen 5 7645HX
+15,/cpu-specs/ryzen-5-8540u.c3406,Ryzen 5 8540U
+16,/cpu-specs/ryzen-5-8640hs.c3404,Ryzen 5 8640HS
+17,/cpu-specs/ryzen-5-8640u.c3405,Ryzen 5 8640U
+18,/cpu-specs/ryzen-5-8645hs.c3403,Ryzen 5 8645HS
+19,/cpu-specs/ryzen-5-pro-7530u.c3274,Ryzen 5 PRO 7530U
+20,/cpu-specs/ryzen-7-7730u.c3037,Ryzen 7 7730U
+21,/cpu-specs/ryzen-7-7735h.c3187,Ryzen 7 7735H
+22,/cpu-specs/ryzen-7-7735hs.c3041,Ryzen 7 7735HS
+23,/cpu-specs/ryzen-7-7735u.c3040,Ryzen 7 7735U
+24,/cpu-specs/ryzen-7-7736u.c3186,Ryzen 7 7736U
+25,/cpu-specs/ryzen-7-7745hx.c3025,Ryzen 7 7745HX
+26,/cpu-specs/ryzen-7-7840h.c3271,Ryzen 7 7840H
+27,/cpu-specs/ryzen-7-7840hs.c3033,Ryzen 7 7840HS
+28,/cpu-specs/ryzen-7-7840u.c3212,Ryzen 7 7840U
+29,/cpu-specs/ryzen-7-8840hs.c3401,Ryzen 7 8840HS
+30,/cpu-specs/ryzen-7-8840u.c3402,Ryzen 7 8840U
+31,/cpu-specs/ryzen-7-8845hs.c3400,Ryzen 7 8845HS
+32,/cpu-specs/ryzen-7-pro-7730u.c3275,Ryzen 7 PRO 7730U
+33,/cpu-specs/ryzen-9-7845hx.c3026,Ryzen 9 7845HX
+34,/cpu-specs/ryzen-9-7940h.c3272,Ryzen 9 7940H
+35,/cpu-specs/ryzen-9-7940hs.c3020,Ryzen 9 7940HS
+36,/cpu-specs/ryzen-9-7945hx.c3027,Ryzen 9 7945HX
+37,/cpu-specs/ryzen-9-7945hx3d.c3263,Ryzen 9 7945HX3D
+38,/cpu-specs/ryzen-9-8945hs.c3399,Ryzen 9 8945HS
+39,/cpu-specs/ryzen-z1.c3287,Ryzen Z1
+40,/cpu-specs/ryzen-z1-extreme.c3276,Ryzen Z1 Extreme
+41,/cpu-specs/steam-deck-cpu-oled.c3398,Steam Deck CPU (OLED)
+42,/cpu-specs/atom-x7211e.c3012,Atom x7211E
+43,/cpu-specs/atom-x7213e.c3011,Atom x7213E
+44,/cpu-specs/atom-x7425e.c3013,Atom x7425E
+45,/cpu-specs/core-ultra-5-115u.c3556,Core Ultra 5 115U
+46,/cpu-specs/core-ultra-5-125h.c3309,Core Ultra 5 125H
+47,/cpu-specs/core-ultra-5-125u.c3557,Core Ultra 5 125U
+48,/cpu-specs/core-ultra-5-134u.c3555,Core Ultra 5 134U
+49,/cpu-specs/core-ultra-5-135h.c3419,Core Ultra 5 135H
+50,/cpu-specs/core-ultra-5-135u.c3558,Core Ultra 5 135U
+51,/cpu-specs/core-ultra-7-155h.c3307,Core Ultra 7 155H
+52,/cpu-specs/core-ultra-7-155u.c3524,Core Ultra 7 155U
+53,/cpu-specs/core-ultra-7-164u.c3525,Core Ultra 7 164U
+54,/cpu-specs/core-ultra-7-165h.c3306,Core Ultra 7 165H
+55,/cpu-specs/core-ultra-7-165u.c3523,Core Ultra 7 165U
+56,/cpu-specs/core-ultra-9-185h.c3308,Core Ultra 9 185H
+57,/cpu-specs/core-i3-1305u.c3062,Core i3-1305U
+58,/cpu-specs/core-i3-1315u.c3063,Core i3-1315U
+59,/cpu-specs/core-i3-1315ue.c3073,Core i3-1315UE
+60,/cpu-specs/core-i3-n300.c3014,Core i3-N300
+61,/cpu-specs/core-i3-n305.c3015,Core i3-N305
+62,/cpu-specs/core-i5-1334u.c3064,Core i5-1334U
+63,/cpu-specs/core-i5-1335u.c3065,Core i5-1335U
+64,/cpu-specs/core-i5-1335ue.c3066,Core i5-1335UE
+65,/cpu-specs/core-i5-1340p.c3061,Core i5-1340P
+66,/cpu-specs/core-i5-13420h.c3058,Core i5-13420H
+67,/cpu-specs/core-i5-13450hx.c3032,Core i5-13450HX
+68,/cpu-specs/core-i5-1345u.c3067,Core i5-1345U
+69,/cpu-specs/core-i5-1345ue.c3068,Core i5-1345UE
+70,/cpu-specs/core-i5-13500h.c3057,Core i5-13500H
+71,/cpu-specs/core-i5-13500hx.c3031,Core i5-13500HX
+72,/cpu-specs/core-i5-13505h.c3056,Core i5-13505H
+73,/cpu-specs/core-i5-1350p.c3060,Core i5-1350P
+74,/cpu-specs/core-i5-13600h.c3054,Core i5-13600H
+75,/cpu-specs/core-i5-13600hx.c3030,Core i5-13600HX
+76,/cpu-specs/core-i7-1355u.c3069,Core i7-1355U
+77,/cpu-specs/core-i7-1360p.c3059,Core i7-1360P
+78,/cpu-specs/core-i7-13620h.c3053,Core i7-13620H
+79,/cpu-specs/core-i7-13650hx.c3029,Core i7-13650HX
+80,/cpu-specs/core-i7-1365u.c3070,Core i7-1365U
+81,/cpu-specs/core-i7-1365ue.c3071,Core i7-1365UE
+82,/cpu-specs/core-i7-1366ure.c3595,Core i7-1366URE
+83,/cpu-specs/core-i7-13700h.c3052,Core i7-13700H
+84,/cpu-specs/core-i7-13700hx.c3028,Core i7-13700HX
+85,/cpu-specs/core-i7-13705h.c3051,Core i7-13705H
+86,/cpu-specs/core-i7-1370p.c3055,Core i7-1370P
+87,/cpu-specs/core-i7-1375pre.c3594,Core i7-1375PRE
+88,/cpu-specs/core-i7-13800h.c3050,Core i7-13800H
+89,/cpu-specs/core-i7-13850hx.c3019,Core i7-13850HX
+90,/cpu-specs/core-i9-13900h.c3048,Core i9-13900H
+91,/cpu-specs/core-i9-13900hk.c3047,Core i9-13900HK
+92,/cpu-specs/core-i9-13900hx.c3018,Core i9-13900HX
+93,/cpu-specs/core-i9-13905h.c3049,Core i9-13905H
+94,/cpu-specs/core-i9-13950hx.c3017,Core i9-13950HX
+95,/cpu-specs/core-i9-13980hx.c3016,Core i9-13980HX
+96,/cpu-specs/processor-n100.c3007,Processor N100
+97,/cpu-specs/processor-n200.c3008,Processor N200
+98,/cpu-specs/processor-n50.c3010,Processor N50
+99,/cpu-specs/processor-n95.c3185,Processor N95
+100,/cpu-specs/processor-n97.c3009,Processor N97
+101,/cpu-specs/processor-u300.c3072,Processor U300
+102,/cpu-specs/processor-u300e.c3074,Processor U300E
+103,/cpu-specs/ryzen-5-8500g.c3436,Ryzen 5 8500G
+104,/cpu-specs/ryzen-5-pro-8540u.c3576,Ryzen 5 PRO 8540U
+105,/cpu-specs/ryzen-5-pro-8640hs.c3575,Ryzen 5 PRO 8640HS
+106,/cpu-specs/ryzen-5-pro-8640u.c3574,Ryzen 5 PRO 8640U
+107,/cpu-specs/ryzen-5-pro-8645hs.c3573,Ryzen 5 PRO 8645HS
+108,/cpu-specs/ryzen-7-pro-8840hs.c3571,Ryzen 7 PRO 8840HS
+109,/cpu-specs/ryzen-7-pro-8840u.c3572,Ryzen 7 PRO 8840U
+110,/cpu-specs/ryzen-7-pro-8845hs.c3570,Ryzen 7 PRO 8845HS
+111,/cpu-specs/ryzen-9-pro-8945hs.c3569,Ryzen 9 PRO 8945HS
+112,/cpu-specs/ryzen-ai-9-365.c3656,Ryzen AI 9 365
+113,/cpu-specs/ryzen-ai-9-hx-370.c3655,Ryzen AI 9 HX 370
+114,/cpu-specs/ryzen-ai-9-hx-375.c3815,Ryzen AI 9 HX 375
+115,/cpu-specs/ryzen-embedded-8640u.c3581,Ryzen Embedded 8640U
+116,/cpu-specs/ryzen-embedded-8645hs.c3580,Ryzen Embedded 8645HS
+117,/cpu-specs/ryzen-embedded-8840u.c3578,Ryzen Embedded 8840U
+118,/cpu-specs/ryzen-embedded-8845hs.c3577,Ryzen Embedded 8845HS
+119,/cpu-specs/atom-x7203c.c3725,Atom x7203C
+120,/cpu-specs/atom-x7211re.c3719,Atom x7211RE
+121,/cpu-specs/atom-x7213re.c3720,Atom x7213RE
+122,/cpu-specs/atom-x7405c.c3724,Atom x7405C
+123,/cpu-specs/atom-x7433re.c3721,Atom x7433RE
+124,/cpu-specs/atom-x7809c.c3723,Atom x7809C
+125,/cpu-specs/atom-x7835re.c3722,Atom x7835RE
+126,/cpu-specs/core-3-100u.c3461,Core 3 100U
+127,/cpu-specs/core-5-120u.c3462,Core 5 120U
+128,/cpu-specs/core-5-220u.c3470,Core 5 220U
+129,/cpu-specs/core-7-150u.c3463,Core 7 150U
+130,/cpu-specs/core-7-250u.c3466,Core 7 250U
+131,/cpu-specs/core-ultra-5-226v.c3800,Core Ultra 5 226V
+132,/cpu-specs/core-ultra-5-228v.c3799,Core Ultra 5 228V
+133,/cpu-specs/core-ultra-5-236v.c3798,Core Ultra 5 236V
+134,/cpu-specs/core-ultra-5-238v.c3797,Core Ultra 5 238V
+135,/cpu-specs/core-ultra-7-256v.c3796,Core Ultra 7 256V
+136,/cpu-specs/core-ultra-7-258v.c3795,Core Ultra 7 258V
+137,/cpu-specs/core-ultra-7-266v.c3794,Core Ultra 7 266V
+138,/cpu-specs/core-ultra-7-268v.c3793,Core Ultra 7 268V
+139,/cpu-specs/core-ultra-9-288v.c3755,Core Ultra 9 288V
+140,/cpu-specs/core-i5-14450hx.c3475,Core i5-14450HX
+141,/cpu-specs/core-i5-14500hx.c3474,Core i5-14500HX
+142,/cpu-specs/core-i7-14650hx.c3473,Core i7-14650HX
+143,/cpu-specs/core-i7-14700hx.c3472,Core i7-14700HX
+144,/cpu-specs/core-i9-14900hx.c3471,Core i9-14900HX
+145,/cpu-specs/athlon-gold-7220u.c3044,Athlon Gold 7220U
+146,/cpu-specs/athlon-silver-7120u.c3043,Athlon Silver 7120U
+147,/cpu-specs/ryzen-3-5125c.c2785,Ryzen 3 5125C
+148,/cpu-specs/ryzen-3-5425c.c2784,Ryzen 3 5425C
+149,/cpu-specs/ryzen-3-5425u.c2519,Ryzen 3 5425U
+150,/cpu-specs/ryzen-3-7320u.c3045,Ryzen 3 7320U
+151,/cpu-specs/ryzen-3-pro-5475u.c2775,Ryzen 3 PRO 5475U
+152,/cpu-specs/ryzen-5-5625c.c2783,Ryzen 5 5625C
+153,/cpu-specs/ryzen-5-5625u.c2520,Ryzen 5 5625U
+154,/cpu-specs/ryzen-5-6600h.c2525,Ryzen 5 6600H
+155,/cpu-specs/ryzen-5-6600hs.c2524,Ryzen 5 6600HS
+156,/cpu-specs/ryzen-5-6600u.c2522,Ryzen 5 6600U
+157,/cpu-specs/ryzen-5-7520u.c3046,Ryzen 5 7520U
+158,/cpu-specs/ryzen-5-pro-5675u.c2776,Ryzen 5 PRO 5675U
+159,/cpu-specs/ryzen-5-pro-6650h.c2769,Ryzen 5 PRO 6650H
+160,/cpu-specs/ryzen-5-pro-6650hs.c2770,Ryzen 5 PRO 6650HS
+161,/cpu-specs/ryzen-5-pro-6650u.c2771,Ryzen 5 PRO 6650U
+162,/cpu-specs/ryzen-7-5825c.c2782,Ryzen 7 5825C
+163,/cpu-specs/ryzen-7-5825u.c2521,Ryzen 7 5825U
+164,/cpu-specs/ryzen-7-6800h.c2527,Ryzen 7 6800H
+165,/cpu-specs/ryzen-7-6800hs.c2526,Ryzen 7 6800HS
+166,/cpu-specs/ryzen-7-6800u.c2523,Ryzen 7 6800U
+167,/cpu-specs/ryzen-7-pro-5875u.c2777,Ryzen 7 PRO 5875U
+168,/cpu-specs/ryzen-7-pro-6850h.c2766,Ryzen 7 PRO 6850H
+169,/cpu-specs/ryzen-7-pro-6850hs.c2767,Ryzen 7 PRO 6850HS
+170,/cpu-specs/ryzen-7-pro-6850u.c2768,Ryzen 7 PRO 6850U
+171,/cpu-specs/ryzen-9-6900hs.c2528,Ryzen 9 6900HS
+172,/cpu-specs/ryzen-9-6900hx.c2529,Ryzen 9 6900HX
+173,/cpu-specs/ryzen-9-6980hs.c2530,Ryzen 9 6980HS
+174,/cpu-specs/ryzen-9-6980hx.c2531,Ryzen 9 6980HX
+175,/cpu-specs/ryzen-9-pro-6950h.c2765,Ryzen 9 PRO 6950H
+176,/cpu-specs/ryzen-9-pro-6950hs.c2764,Ryzen 9 PRO 6950HS
+177,/cpu-specs/steam-deck-cpu-lcd.c3397,Steam Deck CPU (LCD)
+178,/cpu-specs/celeron-7300.c2675,Celeron 7300
+179,/cpu-specs/celeron-7305.c2674,Celeron 7305
+180,/cpu-specs/core-i3-1210u.c2586,Core i3-1210U
+181,/cpu-specs/core-i3-1215u.c2585,Core i3-1215U
+182,/cpu-specs/core-i3-1215u-ipu.c2698,Core i3-1215U (IPU)
+183,/cpu-specs/core-i3-1220p.c2584,Core i3-1220P
+184,/cpu-specs/core-i3-12300he.c2547,Core i3-12300HE
+185,/cpu-specs/core-i5-1230u.c2587,Core i5-1230U
+186,/cpu-specs/core-i5-1235u.c2591,Core i5-1235U
+187,/cpu-specs/core-i5-1235u-ipu.c2699,Core i5-1235U (IPU)
+188,/cpu-specs/core-i5-1240p.c2583,Core i5-1240P
+189,/cpu-specs/core-i5-1240u.c2588,Core i5-1240U
+190,/cpu-specs/core-i5-12450h.c2533,Core i5-12450H
+191,/cpu-specs/core-i5-12450hx.c2792,Core i5-12450HX
+192,/cpu-specs/core-i5-1245u.c2592,Core i5-1245U
+193,/cpu-specs/core-i5-12500h.c2534,Core i5-12500H
+194,/cpu-specs/core-i5-1250p.c2582,Core i5-1250P
+195,/cpu-specs/core-i5-12600h.c2535,Core i5-12600H
+196,/cpu-specs/core-i5-12600he.c2557,Core i5-12600HE
+197,/cpu-specs/core-i5-12600hx.c2791,Core i5-12600HX
+198,/cpu-specs/core-i7-1250u.c2589,Core i7-1250U
+199,/cpu-specs/core-i7-1255u.c2593,Core i7-1255U
+200,/cpu-specs/core-i7-1260p.c2581,Core i7-1260P
+201,/cpu-specs/core-i7-1260u.c2590,Core i7-1260U
+202,/cpu-specs/core-i7-12650h.c2536,Core i7-12650H
+203,/cpu-specs/core-i7-12650hx.c2790,Core i7-12650HX
+204,/cpu-specs/core-i7-1265u.c2594,Core i7-1265U
+205,/cpu-specs/core-i7-12700h.c2537,Core i7-12700H
+206,/cpu-specs/core-i7-1270p.c2580,Core i7-1270P
+207,/cpu-specs/core-i7-12800h.c2538,Core i7-12800H
+208,/cpu-specs/core-i7-12800he.c2564,Core i7-12800HE
+209,/cpu-specs/core-i7-12800hx.c2789,Core i7-12800HX
+210,/cpu-specs/core-i7-1280p.c2579,Core i7-1280P
+211,/cpu-specs/core-i7-12850hx.c2788,Core i7-12850HX
+212,/cpu-specs/core-i9-12900h.c2539,Core i9-12900H
+213,/cpu-specs/core-i9-12900hk.c2540,Core i9-12900HK
+214,/cpu-specs/core-i9-12900hx.c2787,Core i9-12900HX
+215,/cpu-specs/core-i9-12950hx.c2786,Core i9-12950HX
+216,/cpu-specs/pentium-8500.c2672,Pentium 8500
+217,/cpu-specs/pentium-8505.c2673,Pentium 8505
+218,/cpu-specs/pentium-8505-ipu.c2700,Pentium 8505 (IPU)
+219,/cpu-specs/ryzen-3-5300u.c2745,Ryzen 3 5300U
+220,/cpu-specs/ryzen-3-5400u.c2748,Ryzen 3 5400U
+221,/cpu-specs/ryzen-3-pro-5450u.c2772,Ryzen 3 PRO 5450U
+222,/cpu-specs/ryzen-5-5500u.c2372,Ryzen 5 5500U
+223,/cpu-specs/ryzen-5-5560u.c3265,Ryzen 5 5560U
+224,/cpu-specs/ryzen-5-5600hs.c3519,Ryzen 5 5600HS
+225,/cpu-specs/ryzen-5-5600u.c2747,Ryzen 5 5600U
+226,/cpu-specs/ryzen-5-pro-5650u.c2773,Ryzen 5 PRO 5650U
+227,/cpu-specs/ryzen-7-5700u.c2744,Ryzen 7 5700U
+228,/cpu-specs/ryzen-7-5800h.c2368,Ryzen 7 5800H
+229,/cpu-specs/ryzen-7-5800hs.c2369,Ryzen 7 5800HS
+230,/cpu-specs/ryzen-7-5800u.c2746,Ryzen 7 5800U
+231,/cpu-specs/ryzen-7-pro-5850u.c2774,Ryzen 7 PRO 5850U
+232,/cpu-specs/ryzen-9-5900hs.c3518,Ryzen 9 5900HS
+233,/cpu-specs/ryzen-9-5900hx.c2371,Ryzen 9 5900HX
+234,/cpu-specs/ryzen-9-5980hs.c2370,Ryzen 9 5980HS
+235,/cpu-specs/ryzen-9-5980hx.c3517,Ryzen 9 5980HX
+236,/cpu-specs/core-i5-11260h.c2478,Core i5-11260H
+237,/cpu-specs/core-i5-11300h.c2831,Core i5-11300H
+238,/cpu-specs/core-i5-11320h.c2832,Core i5-11320H
+239,/cpu-specs/core-i5-11400h.c2477,Core i5-11400H
+240,/cpu-specs/core-i5-11500h.c2481,Core i5-11500H
+241,/cpu-specs/core-i5-1155g7.c2486,Core i5-1155G7
+242,/cpu-specs/core-i7-11370h.c2833,Core i7-11370H
+243,/cpu-specs/core-i7-11375h.c2834,Core i7-11375H
+244,/cpu-specs/core-i7-11390h.c2835,Core i7-11390H
+245,/cpu-specs/core-i7-11600h.c2830,Core i7-11600H
+246,/cpu-specs/core-i7-11800h.c2476,Core i7-11800H
+247,/cpu-specs/core-i7-11850h.c2480,Core i7-11850H
+248,/cpu-specs/core-i7-1195g7.c2485,Core i7-1195G7
+249,/cpu-specs/core-i9-11900h.c2475,Core i9-11900H
+250,/cpu-specs/core-i9-11900kb.c2484,Core i9-11900KB
+251,/cpu-specs/core-i9-11950h.c2479,Core i9-11950H
+252,/cpu-specs/core-i9-11980hk.c2474,Core i9-11980HK
+253,/cpu-specs/xeon-w-11855m.c2483,Xeon W-11855M
+254,/cpu-specs/xeon-w-11955m.c2482,Xeon W-11955M
+255,/cpu-specs/ryzen-3-3250u.c2287,Ryzen 3 3250U
+256,/cpu-specs/ryzen-3-4300u.c2286,Ryzen 3 4300U
+257,/cpu-specs/ryzen-3-pro-4450u.c2503,Ryzen 3 PRO 4450U
+258,/cpu-specs/ryzen-5-4500u.c2285,Ryzen 5 4500U
+259,/cpu-specs/ryzen-5-4600h.c2283,Ryzen 5 4600H
+260,/cpu-specs/ryzen-5-4600hs.c2295,Ryzen 5 4600HS
+261,/cpu-specs/ryzen-5-4600u.c2284,Ryzen 5 4600U
+262,/cpu-specs/ryzen-5-pro-4650u.c2504,Ryzen 5 PRO 4650U
+263,/cpu-specs/ryzen-7-4700u.c2282,Ryzen 7 4700U
+264,/cpu-specs/ryzen-7-4750u.c2502,Ryzen 7 4750U
+265,/cpu-specs/ryzen-7-4800h.c2280,Ryzen 7 4800H
+266,/cpu-specs/ryzen-7-4800hs.c2296,Ryzen 7 4800HS
+267,/cpu-specs/ryzen-7-4800u.c2281,Ryzen 7 4800U
+268,/cpu-specs/ryzen-9-4900h.c2279,Ryzen 9 4900H
+269,/cpu-specs/ryzen-9-4900hs.c2278,Ryzen 9 4900HS
+270,/cpu-specs/ryzen-embedded-r1102g.c2841,Ryzen Embedded R1102G
+271,/cpu-specs/ryzen-embedded-r1305g.c2842,Ryzen Embedded R1305G
+272,/cpu-specs/ryzen-embedded-r1505g.c2843,Ryzen Embedded R1505G
+273,/cpu-specs/ryzen-embedded-r1600.c2845,Ryzen Embedded R1600
+274,/cpu-specs/ryzen-embedded-r1606g.c2844,Ryzen Embedded R1606G
+275,/cpu-specs/core-i3-1000ng4.c3591,Core i3-1000NG4
+276,/cpu-specs/core-i3-1110g4.c2351,Core i3-1110G4
+277,/cpu-specs/core-i3-1115g4.c2348,Core i3-1115G4
+278,/cpu-specs/core-i3-1120g4.c2350,Core i3-1120G4
+279,/cpu-specs/core-i3-1125g4.c2347,Core i3-1125G4
+280,/cpu-specs/core-i3-l13g4.c3312,Core i3-L13G4
+281,/cpu-specs/core-i5-10200h.c2354,Core i5-10200H
+282,/cpu-specs/core-i5-10300h.c2355,Core i5-10300H
+283,/cpu-specs/core-i5-1030ng7.c3592,Core i5-1030NG7
+284,/cpu-specs/core-i5-1038ng7.c2676,Core i5-1038NG7
+285,/cpu-specs/core-i5-10400h.c2361,Core i5-10400H
+286,/cpu-specs/core-i5-1060ng7.c3593,Core i5-1060NG7
+287,/cpu-specs/core-i5-1130g7.c2349,Core i5-1130G7
+288,/cpu-specs/core-i5-1135g7.c2346,Core i5-1135G7
+289,/cpu-specs/core-i5-1145g7.c2352,Core i5-1145G7
+290,/cpu-specs/core-i5-l16g7.c3313,Core i5-L16G7
+291,/cpu-specs/core-i7-10610u.c2358,Core i7-10610U
+292,/cpu-specs/core-i7-10750h.c2360,Core i7-10750H
+293,/cpu-specs/core-i7-10810u.c2357,Core i7-10810U
+294,/cpu-specs/core-i7-10850h.c2359,Core i7-10850H
+295,/cpu-specs/core-i7-10870h.c2353,Core i7-10870H
+296,/cpu-specs/core-i7-10875h.c2277,Core i7-10875H
+297,/cpu-specs/core-i7-1160g7.c2345,Core i7-1160G7
+298,/cpu-specs/core-i7-1165g7.c2343,Core i7-1165G7
+299,/cpu-specs/core-i7-1185g7.c2344,Core i7-1185G7
+300,/cpu-specs/core-i9-10885h.c2356,Core i9-10885H
+301,/cpu-specs/core-i9-10980hk.c2276,Core i9-10980HK
+302,/cpu-specs/pentium-6805.c3590,Pentium 6805
+303,/cpu-specs/xeon-w-1290p.c2839,Xeon W-1290P
+304,/cpu-specs/a4-9120c-soc.c2143,A4-9120C SoC
+305,/cpu-specs/a4-9120e-soc.c3701,A4-9120e SoC
+306,/cpu-specs/a6-9220c-soc.c2142,A6-9220C SoC
+307,/cpu-specs/a6-9220e-soc.c3695,A6-9220e SoC
+308,/cpu-specs/athlon-300u.c2135,Athlon 300U
+309,/cpu-specs/athlon-pro-300u.c2176,Athlon PRO 300U
+310,/cpu-specs/ryzen-3-3200u.c2136,Ryzen 3 3200U
+311,/cpu-specs/ryzen-3-3300u.c2137,Ryzen 3 3300U
+312,/cpu-specs/ryzen-3-pro-2300u.c2002,Ryzen 3 PRO 2300U
+313,/cpu-specs/ryzen-3-pro-3300u.c2175,Ryzen 3 PRO 3300U
+314,/cpu-specs/ryzen-5-3500u.c2138,Ryzen 5 3500U
+315,/cpu-specs/ryzen-5-3550h.c2139,Ryzen 5 3550H
+316,/cpu-specs/ryzen-5-3580u.c2312,Ryzen 5 3580U
+317,/cpu-specs/ryzen-5-pro-2500u.c2001,Ryzen 5 PRO 2500U
+318,/cpu-specs/ryzen-5-pro-3500u.c2174,Ryzen 5 PRO 3500U
+319,/cpu-specs/ryzen-7-3700u.c2140,Ryzen 7 3700U
+320,/cpu-specs/ryzen-7-3750h.c2141,Ryzen 7 3750H
+321,/cpu-specs/ryzen-7-3780u.c2311,Ryzen 7 3780U
+322,/cpu-specs/ryzen-7-pro-3700u.c2173,Ryzen 7 PRO 3700U
+323,/cpu-specs/celeron-4205u.c3603,Celeron 4205U
+324,/cpu-specs/celeron-4305u.c3602,Celeron 4305U
+325,/cpu-specs/celeron-j4025.c3281,Celeron J4025
+326,/cpu-specs/celeron-j4125.c3280,Celeron J4125
+327,/cpu-specs/core-i3-1000g1.c2219,Core i3-1000G1
+328,/cpu-specs/core-i3-1000g4.c2220,Core i3-1000G4
+329,/cpu-specs/core-i3-1005g1.c2224,Core i3-1005G1
+330,/cpu-specs/core-i3-10110u.c2234,Core i3-10110U
+331,/cpu-specs/core-i3-10110y.c2230,Core i3-10110Y
+332,/cpu-specs/core-i5-10210u.c2235,Core i5-10210U
+333,/cpu-specs/core-i5-10210y.c2231,Core i5-10210Y
+334,/cpu-specs/core-i5-1030g4.c2221,Core i5-1030G4
+335,/cpu-specs/core-i5-1030g7.c2222,Core i5-1030G7
+336,/cpu-specs/core-i5-10310y.c2232,Core i5-10310Y
+337,/cpu-specs/core-i5-1035g1.c2225,Core i5-1035G1
+338,/cpu-specs/core-i5-1035g4.c2226,Core i5-1035G4
+339,/cpu-specs/core-i5-1035g7.c2227,Core i5-1035G7
+340,/cpu-specs/core-i5-8279u.c3264,Core i5-8279U
+341,/cpu-specs/core-i5-8365u.c3598,Core i5-8365U
+342,/cpu-specs/core-i5-8365ue.c3600,Core i5-8365UE
+343,/cpu-specs/core-i7-10510u.c2236,Core i7-10510U
+344,/cpu-specs/core-i7-10510y.c2233,Core i7-10510Y
+345,/cpu-specs/core-i7-1060g7.c2223,Core i7-1060G7
+346,/cpu-specs/core-i7-1065g7.c2228,Core i7-1065G7
+347,/cpu-specs/core-i7-1068ng7.c2229,Core i7-1068NG7
+348,/cpu-specs/core-i7-10710u.c2237,Core i7-10710U
+349,/cpu-specs/core-i7-9750h.c2290,Core i7-9750H
+350,/cpu-specs/core-i7-9750hf.c2291,Core i7-9750HF
+351,/cpu-specs/core-i7-9850h.c2292,Core i7-9850H
+352,/cpu-specs/core-i7-9850he.c2293,Core i7-9850HE
+353,/cpu-specs/core-i7-9850hl.c2294,Core i7-9850HL
+354,/cpu-specs/core-i9-9880h.c2289,Core i9-9880H
+355,/cpu-specs/core-i9-9980hk.c2288,Core i9-9980HK
+356,/cpu-specs/pentium-gold-5405u.c3601,Pentium Gold 5405U
+357,/cpu-specs/pentium-silver-j5040.c3278,Pentium Silver J5040
+358,/cpu-specs/xeon-e-2276m.c3547,Xeon E-2276M
+359,/cpu-specs/xeon-e-2286m.c3548,Xeon E-2286M
+360,/cpu-specs/gx-212jj.c3672,GX-212JJ
+361,/cpu-specs/gx-220ij.c3675,GX-220IJ
+362,/cpu-specs/ryzen-3-2200u.c1983,Ryzen 3 2200U
+363,/cpu-specs/ryzen-3-2300u.c1977,Ryzen 3 2300U
+364,/cpu-specs/ryzen-5-2600h.c2077,Ryzen 5 2600H
+365,/cpu-specs/ryzen-7-2800h.c2076,Ryzen 7 2800H
+366,/cpu-specs/celeron-4305ue.c3604,Celeron 4305UE
+367,/cpu-specs/core-i3-8109u.c2023,Core i3-8109U
+368,/cpu-specs/core-i3-8121u.c2070,Core i3-8121U
+369,/cpu-specs/core-i3-8130u.c1996,Core i3-8130U
+370,/cpu-specs/core-i3-8145u.c2101,Core i3-8145U
+371,/cpu-specs/core-i3-8145ue.c3599,Core i3-8145UE
+372,/cpu-specs/core-i5-8259u.c2024,Core i5-8259U
+373,/cpu-specs/core-i5-8265u.c2102,Core i5-8265U
+374,/cpu-specs/core-i5-8269u.c2025,Core i5-8269U
+375,/cpu-specs/core-i5-8300h.c1994,Core i5-8300H
+376,/cpu-specs/core-i5-8305g.c1982,Core i5-8305G
+377,/cpu-specs/core-i5-8400h.c1993,Core i5-8400H
+378,/cpu-specs/core-i7-8559u.c2026,Core i7-8559U
+379,/cpu-specs/core-i7-8560u.c3605,Core i7-8560U
+380,/cpu-specs/core-i7-8565u.c2103,Core i7-8565U
+381,/cpu-specs/core-i7-8665u.c3596,Core i7-8665U
+382,/cpu-specs/core-i7-8665ue.c3597,Core i7-8665UE
+383,/cpu-specs/core-i7-8705g.c1981,Core i7-8705G
+384,/cpu-specs/core-i7-8706g.c1995,Core i7-8706G
+385,/cpu-specs/core-i7-8709g.c1979,Core i7-8709G
+386,/cpu-specs/core-i7-8750h.c1992,Core i7-8750H
+387,/cpu-specs/core-i7-8809g.c1980,Core i7-8809G
+388,/cpu-specs/core-i7-8850h.c1991,Core i7-8850H
+389,/cpu-specs/core-i9-8950hk.c1969,Core i9-8950HK
+390,/cpu-specs/core-m3-8114y.c2071,Core m3-8114Y
+391,/cpu-specs/xeon-e-2176m.c3545,Xeon E-2176M
+392,/cpu-specs/xeon-e-2186m.c3546,Xeon E-2186M
+393,/cpu-specs/a4-9120-soc.c3700,A4-9120 SoC
+394,/cpu-specs/a4-9125-soc.c3702,A4-9125 SoC
+395,/cpu-specs/a6-9220-soc.c3694,A6-9220 SoC
+396,/cpu-specs/a6-9225-soc.c3696,A6-9225 SoC
+397,/cpu-specs/ryzen-5-2500u.c1971,Ryzen 5 2500U
+398,/cpu-specs/ryzen-7-2700u.c1970,Ryzen 7 2700U
+399,/cpu-specs/ryzen-7-pro-2700u.c2000,Ryzen 7 PRO 2700U
+400,/cpu-specs/celeron-3865u.c3104,Celeron 3865U
+401,/cpu-specs/celeron-3965u.c3105,Celeron 3965U
+402,/cpu-specs/celeron-j4005.c2072,Celeron J4005
+403,/cpu-specs/celeron-j4105.c3279,Celeron J4105
+404,/cpu-specs/core-i3-7100h.c3103,Core i3-7100H
+405,/cpu-specs/core-i5-7300hq.c1998,Core i5-7300HQ
+406,/cpu-specs/core-i5-7440hq.c3102,Core i5-7440HQ
+407,/cpu-specs/core-i5-8250u.c1972,Core i5-8250U
+408,/cpu-specs/core-i5-8350u.c1973,Core i5-8350U
+409,/cpu-specs/core-i7-7700hq.c3098,Core i7-7700HQ
+410,/cpu-specs/core-i7-7820hk.c3099,Core i7-7820HK
+411,/cpu-specs/core-i7-7820hq.c3100,Core i7-7820HQ
+412,/cpu-specs/core-i7-7920hq.c3101,Core i7-7920HQ
+413,/cpu-specs/core-i7-8550u.c1974,Core i7-8550U
+414,/cpu-specs/core-i7-8650u.c1975,Core i7-8650U
+415,/cpu-specs/pentium-silver-j5005.c3282,Pentium Silver J5005
+416,/cpu-specs/pentium-silver-n5000.c3277,Pentium Silver N5000
+417,/cpu-specs/a6-9200-soc.c3698,A6-9200 SoC
+418,/cpu-specs/a6-9210-soc.c3697,A6-9210 SoC
+419,/cpu-specs/a9-9400-soc.c2061,A9-9400 SoC
+420,/cpu-specs/a9-9410-soc.c2063,A9-9410 SoC
+421,/cpu-specs/a9-9420-soc.c2060,A9-9420 SoC
+422,/cpu-specs/a9-9420e-soc.c3693,A9-9420e SoC
+423,/cpu-specs/a9-9425-soc.c2062,A9-9425 SoC
+424,/cpu-specs/a9-9430-soc.c3692,A9-9430 SoC
+425,/cpu-specs/fx-9800p.c3666,FX-9800P
+426,/cpu-specs/fx-9830p.c3665,FX-9830P
+427,/cpu-specs/gx-215jj.c3671,GX-215JJ
+428,/cpu-specs/gx-217gi.c3674,GX-217GI
+429,/cpu-specs/gx-224ij.c3676,GX-224IJ
+430,/cpu-specs/gx-420gi.c3673,GX-420GI
+431,/cpu-specs/core-i5-6350hq.c1997,Core i5-6350HQ
+432,/cpu-specs/xeon-e3-1515m-v5.c3245,Xeon E3-1515M v5
+433,/cpu-specs/xeon-e3-1545m-v5.c3247,Xeon E3-1545M v5
+434,/cpu-specs/xeon-e3-1575m-v5.c3248,Xeon E3-1575M v5
+435,/cpu-specs/e1-6015.c3566,E1-6015
+436,/cpu-specs/fx-pro-8800p.c3668,FX PRO-8800P
+437,/cpu-specs/fx-8800p.c3667,FX-8800P
+438,/cpu-specs/atom-x3-3205rk.c2803,Atom x3-3205RK
+439,/cpu-specs/celeron-3205u.c1798,Celeron 3205U
+440,/cpu-specs/celeron-3755u.c1799,Celeron 3755U
+441,/cpu-specs/core-i3-5005u.c1801,Core i3-5005U
+442,/cpu-specs/core-i3-5010u.c1802,Core i3-5010U
+443,/cpu-specs/core-i3-5015u.c2690,Core i3-5015U
+444,/cpu-specs/core-i3-5020u.c2691,Core i3-5020U
+445,/cpu-specs/core-i3-5157u.c1803,Core i3-5157U
+446,/cpu-specs/core-i5-5200u.c1807,Core i5-5200U
+447,/cpu-specs/core-i5-5250u.c1811,Core i5-5250U
+448,/cpu-specs/core-i5-5257u.c1804,Core i5-5257U
+449,/cpu-specs/core-i5-5287u.c1805,Core i5-5287U
+450,/cpu-specs/core-i5-5300u.c1808,Core i5-5300U
+451,/cpu-specs/core-i5-5350h.c2696,Core i5-5350H
+452,/cpu-specs/core-i5-5350u.c1812,Core i5-5350U
+453,/cpu-specs/core-i7-5500u.c1809,Core i7-5500U
+454,/cpu-specs/core-i7-5550u.c1813,Core i7-5550U
+455,/cpu-specs/core-i7-5557u.c1806,Core i7-5557U
+456,/cpu-specs/core-i7-5600u.c1810,Core i7-5600U
+457,/cpu-specs/core-i7-5650u.c1814,Core i7-5650U
+458,/cpu-specs/core-m3-6y30.c3586,Core m3-6Y30
+459,/cpu-specs/core-m5-6y54.c3587,Core m5-6Y54
+460,/cpu-specs/core-m5-6y57.c3588,Core m5-6Y57
+461,/cpu-specs/core-m7-6y75.c3589,Core m7-6Y75
+462,/cpu-specs/pentium-3805u.c1800,Pentium 3805U
+463,/cpu-specs/pentium-3825u.c2689,Pentium 3825U
+464,/cpu-specs/xeon-e3-1505m-v5.c3249,Xeon E3-1505M v5
+465,/cpu-specs/xeon-e3-1535m-v5.c3246,Xeon E3-1535M v5
+466,/cpu-specs/nano-quadcore-c4650.c2798,Nano QuadCore C4650
+467,/cpu-specs/nano-quadcore-c4700.c2796,Nano QuadCore C4700
+468,/cpu-specs/a4-pro-3340b.c3561,A4 PRO-3340B
+469,/cpu-specs/a4-5050.c1759,A4-5050
+470,/cpu-specs/e1-2150.c1760,E1-2150
+471,/cpu-specs/e1-6010.c3564,E1-6010
+472,/cpu-specs/e2-3800.c2512,E2-3800
+473,/cpu-specs/fx-7500.c3670,FX-7500
+474,/cpu-specs/fx-7600p.c3669,FX-7600P
+475,/cpu-specs/atom-z3735g.c2518,Atom Z3735G
+476,/cpu-specs/atom-x5-e3930.c2595,Atom x5-E3930
+477,/cpu-specs/atom-x5-e3940.c2596,Atom x5-E3940
+478,/cpu-specs/atom-x7-e3950.c2597,Atom x7-E3950
+479,/cpu-specs/celeron-n2807.c1886,Celeron N2807
+480,/cpu-specs/celeron-n2808.c1887,Celeron N2808
+481,/cpu-specs/celeron-n2830.c1880,Celeron N2830
+482,/cpu-specs/celeron-n2840.c1881,Celeron N2840
+483,/cpu-specs/celeron-n2930.c1890,Celeron N2930
+484,/cpu-specs/celeron-n2940.c1891,Celeron N2940
+485,/cpu-specs/core-m-5y10.c1783,Core M-5Y10
+486,/cpu-specs/core-m-5y10a.c1784,Core M-5Y10a
+487,/cpu-specs/core-m-5y10c.c1815,Core M-5Y10c
+488,/cpu-specs/core-m-5y31.c1818,Core M-5Y31
+489,/cpu-specs/core-m-5y51.c1817,Core M-5Y51
+490,/cpu-specs/core-m-5y70.c1782,Core M-5Y70
+491,/cpu-specs/core-m-5y71.c1816,Core M-5Y71
+492,/cpu-specs/core-i5-4210u.c2028,Core i5-4210U
+493,/cpu-specs/core-i7-4610m.c1774,Core i7-4610M
+494,/cpu-specs/core-i7-4710hq.c1780,Core i7-4710HQ
+495,/cpu-specs/core-i7-4712hq.c1781,Core i7-4712HQ
+496,/cpu-specs/core-i7-4760hq.c1779,Core i7-4760HQ
+497,/cpu-specs/core-i7-4770hq.c1778,Core i7-4770HQ
+498,/cpu-specs/core-i7-4810mq.c1758,Core i7-4810MQ
+499,/cpu-specs/core-i7-4860hq.c1777,Core i7-4860HQ
+500,/cpu-specs/core-i7-4870hq.c1776,Core i7-4870HQ
+501,/cpu-specs/core-i7-4910mq.c1757,Core i7-4910MQ
+502,/cpu-specs/core-i7-4940mx.c1756,Core i7-4940MX
