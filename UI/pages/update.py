@@ -23,7 +23,6 @@ def main():
                 st.toast("Crawled data successfully!")
                 st.write("Crawled data:")
                 st.dataframe(new_born)
-                st.write(f"Crawled data shape: {new_born.shape}")
                 crawled=True      
         except Exception as e:
             st.write("Something failed while crawling data")
@@ -38,7 +37,6 @@ def main():
             else:
                 st.write("Cleaned data:")
                 st.dataframe(washed_baby)
-                st.write(f"Cleaned data shape: {washed_baby.shape}")
                 st.toast("Data successfully cleaned!")
                 cleaned=True
     def lets_merge():
