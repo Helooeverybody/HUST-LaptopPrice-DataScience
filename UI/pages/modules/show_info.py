@@ -12,8 +12,6 @@ from sklearn.preprocessing import StandardScaler
 import pickle
 st.set_page_config(layout="wide")
 product_image_url="https://static.vecteezy.com/system/resources/thumbnails/034/555/145/small_2x/realistic-perspective-front-laptop-with-keyboard-isolated-incline-90-degree-computer-notebook-with-empty-screen-template-front-view-of-mobile-computer-with-keypad-backdrop-digital-equipment-cutout-vector.jpg"  # Replace with an actual image URL
-# Sample data 
-
 
 def get_similar_items(ind):
     return ss.nearest_neighbours[ind]
