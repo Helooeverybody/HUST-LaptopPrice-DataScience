@@ -39,9 +39,7 @@ regarding design, purchasing, and marketing strategies
 |   ├── clean/                            # notebooks for cleaning the data
 |   └── integrate/                        # notebooks for integrating CPU&GPU into Laptop
 |   └── pipeline.py                       # the pipeline file to do both cleaning and integrating
-├── gui/
-|   ├──                                   #
-|   └──                                   #
+├── ui/                                  # ui folder
 
 
 ```
