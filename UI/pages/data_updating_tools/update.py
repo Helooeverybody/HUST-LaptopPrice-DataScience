@@ -10,6 +10,11 @@ import multiprocessing as mp
 import json
 import traceback
 
+
+MINING_RANGE = 10
+
+
+
 ######
 import pandas as pd
 import re
@@ -575,8 +580,6 @@ def a_mess(scraping_path):
             for id, target in enumerate(hehe):
                 hahahaha["link"].append(target.find("a")["href"])
                 hahahaha["name"].append(target.find("img")["alt"])
-                if not first:
-                    first.append(target.find("a")["href"])
                 if target.find("a")["href"] == mygod:
                     return
                 if id > 999:
@@ -612,6 +615,8 @@ def a_mess(scraping_path):
         for key, value in hahahahahaha.items():
             myhahaha.at[id, key] = value
     myhahaha.drop(index=myhahaha.index[-1], inplace=True)
+    myhahaha = myhahaha.iloc[myhahaha.index[-MINING_RANGE]:,]
+    first.append(myhahaha.iloc[myhahaha.index[-MINING_RANGE],]["link"])
     with open("UI/pages/data_updating_tools/final.json", "w") as f:
         json.dump(first[0], f)
     ffx.quit()
