@@ -10,6 +10,11 @@ import multiprocessing as mp
 import json
 import traceback
 
+
+MINING_RANGE = 10
+
+
+
 ######
 import pandas as pd
 import re
@@ -245,24 +250,30 @@ class Cleaner:
         return nvme
 
     def _usbc(self, column):
-        usb_c = column.astype("float")
+        usb_c = column.astype("str").str.extract(r"(\d+)", expand=True).astype(float)
         usb_c.fillna(0, inplace=True)
+        usb_c = usb_c.rename(columns={0: "USB Type-C"})
         return usb_c
 
     def _usba(self, column):
-        usb_a = column.astype("float")
+        usb_a = column.astype("str").str.extract(r"(\d+)", expand=True).astype(float)
         usb_a.fillna(0, inplace=True)
+        usb_a = usb_a.rename(columns={0: "USB Type-A"})
         return usb_a
 
     def _hdmi(self, column):
         hdmi = column.str.extract(r"(\d+)", expand=True).astype(float)
         hdmi = hdmi.fillna(0)
         hdmi = hdmi.replace("", 0)
+        hdmi = hdmi.rename(columns={0: "HDMI"})
         return hdmi
 
     def _bluetooth(self, column):
-        bluetooth = column.astype("float")
+        bluetooth = (
+            column.astype("str").str.extract(r"(\d+)", expand=True).astype(float)
+        )
         bluetooth.fillna(0, inplace=True)
+        bluetooth = bluetooth.rename(columns={0: "Bluetooth"})
         return bluetooth
 
     def _cardreader(self, column):
@@ -305,8 +316,11 @@ class Cleaner:
         return security
 
     def _fingerprint(self, column):
-        fingerprint = column.astype("float")
+        fingerprint = (
+            column.astype("str").str.extract(r"(\d+)", expand=True).astype(float)
+        )
         fingerprint.fillna(0, inplace=True)
+        fingerprint = fingerprint.rename(columns={0: "Fingerprint reader"})
         return fingerprint
 
     def _backlit(self, column):
@@ -566,8 +580,6 @@ def a_mess(scraping_path):
             for id, target in enumerate(hehe):
                 hahahaha["link"].append(target.find("a")["href"])
                 hahahaha["name"].append(target.find("img")["alt"])
-                if not first:
-                    first.append(target.find("a")["href"])
                 if target.find("a")["href"] == mygod:
                     return
                 if id > 999:
@@ -580,6 +592,10 @@ def a_mess(scraping_path):
             mygod = json.load(f)
         hehe(ffx)
         myhahaha = pd.DataFrame(hahahaha)
+        myhahaha.drop(index=myhahaha.index[-1], inplace=True)
+        if myhahaha.shape[0] >15:
+            myhahaha = myhahaha.iloc[myhahaha.index[-MINING_RANGE]:,]
+            myhahaha.reset_index(drop=True, inplace=True)
         args = [(id, row) for (id, row) in myhahaha.iterrows()]
     except Exception as e:
         print(e)
@@ -602,7 +618,10 @@ def a_mess(scraping_path):
         id, hahahahahaha = result
         for key, value in hahahahahaha.items():
             myhahaha.at[id, key] = value
-    myhahaha.drop(index=myhahaha.index[-1], inplace=True)
+    if myhahaha.shape[0] > 15:
+        first.append(myhahaha.iloc[myhahaha.index[-MINING_RANGE],]["link"])
+    else:
+        first.append(myhahaha.iloc[0,]["link"])
     with open("UI/pages/data_updating_tools/final.json", "w") as f:
         json.dump(first[0], f)
     ffx.quit()
@@ -624,6 +643,10 @@ def merge(hehe, myhahaha, data_path, change_name=True):
     hehe = pd.concat([myhahaha, hehe])
     hehe.drop_duplicates(subset=["link"], inplace=True)
     hehe.reset_index(drop=True, inplace=True)
+    cols = hehe.columns.tolist()
+    for col in cols:
+        if "material" in col:
+            hehe[col] = hehe[col].fillna(0)
     if change_name == True:
         hehe.to_csv(data_path + "laptop_final_hehehe.csv", index=False)
     else:
