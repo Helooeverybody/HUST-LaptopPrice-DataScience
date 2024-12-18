@@ -592,6 +592,10 @@ def a_mess(scraping_path):
             mygod = json.load(f)
         hehe(ffx)
         myhahaha = pd.DataFrame(hahahaha)
+        myhahaha.drop(index=myhahaha.index[-1], inplace=True)
+        myhahaha = myhahaha.iloc[myhahaha.index[-MINING_RANGE]:,]
+        myhahaha.reset_index(drop=True, inplace=True)
+        first.append(myhahaha.iloc[myhahaha.index[-MINING_RANGE],]["link"])
         args = [(id, row) for (id, row) in myhahaha.iterrows()]
     except Exception as e:
         print(e)
@@ -614,9 +618,6 @@ def a_mess(scraping_path):
         id, hahahahahaha = result
         for key, value in hahahahahaha.items():
             myhahaha.at[id, key] = value
-    myhahaha.drop(index=myhahaha.index[-1], inplace=True)
-    myhahaha = myhahaha.iloc[myhahaha.index[-MINING_RANGE]:,]
-    first.append(myhahaha.iloc[myhahaha.index[-MINING_RANGE],]["link"])
     with open("UI/pages/data_updating_tools/final.json", "w") as f:
         json.dump(first[0], f)
     ffx.quit()
