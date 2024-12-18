@@ -299,18 +299,19 @@ def score_vs_cost_by_year():
 def main():
     
     st.title("Laptop Insights Dashboard")
-    #section 1: Average score of each laptop brands
-    st.header("1. Average score of each laptop brands in different price segments")
-    st.write("This section provides insights into the performance over a specific task of laptop brands acrross different price segments")
-    average_score_by_brand()
-    #section 2: Average score of product line of a specific brand
-    st.header("2.  Average score by product line in different price segments of a brand")
-    st.write("This section gives deep insight into product line of specific laptop brand, showing their performance in a given task ")
-    avg_score_by_product_line()
-    # Section 3: Top laptops with highest performance
-    st.header("3. Top laptop brands with highest performance in each category")
+    # Section 1: Top laptops with highest performance
+    st.header("1. Top laptop brands with highest performance in each category")
     st.write("This section will provide insights into the top-performing laptops based on performance metrics.")
     brand_with_best_quality_over_price_range()
+    #section 2: Average score of each laptop brands
+    st.header("2. Average score of each laptop brands in different price segments")
+    st.write("This section provides insights into the performance over a specific task of laptop brands acrross different price segments")
+    average_score_by_brand()
+    #section 3: Average score of product line of a specific brand
+    st.header("3.  Average score by product line in different price segments of a brand")
+    st.write("This section gives deep insight into product line of specific laptop brand, showing their performance in a given task ")
+    avg_score_by_product_line()
+
     # Section 4: Laptop brands dominate in each price range
     st.header("4. Laptop brands domination in different segments of score/price")
     st.write("This section will analyze which laptop brands has the largest number of products in different segments of score/price.")

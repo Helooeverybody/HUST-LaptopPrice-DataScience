@@ -56,7 +56,6 @@ def main():
         else:
             st.toast("Data updated!")
             ss.lap_data = family
-
     if cleaned:
         if st.button("Merge data", type="primary", on_click=lets_merge):
             pass
