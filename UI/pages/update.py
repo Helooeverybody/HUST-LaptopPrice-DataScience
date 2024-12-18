@@ -39,7 +39,7 @@ def main():
             except Exception as e:
                 st.write("Something failed while cleaning data")
                 print(e)
-                traceback.print_exc()
+                # traceback.print_exc()
             else:
                 st.write("Cleaned data:")
                 st.dataframe(washed_baby)
