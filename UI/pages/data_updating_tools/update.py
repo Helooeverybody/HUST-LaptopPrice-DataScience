@@ -11,8 +11,7 @@ import json
 import traceback
 
 
-MINING_RANGE = 10
-
+MINING_RANGE = 11
 
 
 ######
@@ -592,9 +591,8 @@ def a_mess(scraping_path):
             mygod = json.load(f)
         hehe(ffx)
         myhahaha = pd.DataFrame(hahahaha)
-        myhahaha.drop(index=myhahaha.index[-1], inplace=True)
-        if myhahaha.shape[0] >15:
-            myhahaha = myhahaha.iloc[myhahaha.index[-MINING_RANGE]:,]
+        if myhahaha.shape[0] > 15:
+            myhahaha = myhahaha.iloc[myhahaha.index[-MINING_RANGE] :,]
             myhahaha.reset_index(drop=True, inplace=True)
         args = [(id, row) for (id, row) in myhahaha.iterrows()]
     except Exception as e:
@@ -624,6 +622,7 @@ def a_mess(scraping_path):
         first.append(myhahaha.iloc[0,]["link"])
     with open("UI/pages/data_updating_tools/final.json", "w") as f:
         json.dump(first[0], f)
+    myhahaha.drop(index=myhahaha.index[-1], inplace=True)
     ffx.quit()
     return myhahaha
 
